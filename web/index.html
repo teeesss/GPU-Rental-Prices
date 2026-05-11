@@ -38,6 +38,10 @@
             overflow: auto;
         }
 
+        @media (min-width: 1024px) {
+            body { overflow: hidden; height: 100vh; }
+        }
+
         header {
             display: flex;
             justify-content: space-between;
@@ -86,6 +90,21 @@
             grid-template-columns: 1fr 340px;
             gap: 16px;
             min-height: calc(100vh - 120px);
+        }
+
+        @media (min-width: 1024px) {
+            .main-grid { height: calc(100vh - 140px); min-height: 0; }
+        }
+
+        /* Compact Mode for Small Height Desktops */
+        @media (min-width: 1024px) and (max-height: 850px) {
+            header { margin-bottom: 8px; padding-bottom: 4px; }
+            .stat-bar { margin-bottom: 8px; }
+            .stat-card { padding: 6px 4px; }
+            .stat-card .value { font-size: 18px; }
+            .stat-card .label { font-size: 7px; margin-bottom: 2px; }
+            .box { padding: 10px; }
+            .box-header { margin-bottom: 8px; padding-bottom: 4px; }
         }
 
         .box {
@@ -515,14 +534,18 @@
                         },
                         y: { 
                             type: 'logarithmic',
+                            min: 0.4,
                             grid: { color: 'rgba(255,255,255,0.03)' }, 
                             ticks: { 
                                 font: { family: 'JetBrains Mono', size: 9 }, 
                                 color: '#bbb', 
                                 callback: (v) => {
-                                    if (v >= 10) return '$' + Math.round(v);
-                                    if (v >= 1) return '$' + v.toFixed(1);
-                                    return '$' + v.toFixed(2);
+                                    const val = Number(v);
+                                    if (val === 0.5) return '$0.50';
+                                    if (val === 1 || val === 5 || val === 10 || val === 20 || val === 30) {
+                                        return '$' + val;
+                                    }
+                                    return null;
                                 } 
                             } 
                         }
@@ -535,7 +558,7 @@
             if (allPoints.length > 0) {
                 const prices = allPoints.map(p => p.y);
                 const times = allPoints.map(p => p.x.getTime());
-                chart.options.scales.y.min = Math.max(0.1, Math.min(...prices) * 0.8);
+                chart.options.scales.y.min = 0.4;
                 chart.options.scales.y.max = Math.max(...prices) * 1.2;
                 chart.options.scales.x.min = new Date(Math.min(...times));
                 chart.options.scales.x.max = new Date(Math.max(...times));
@@ -596,7 +619,7 @@
                 const maxTime = Math.max(...times);
 
                 // Update Y Axis
-                chart.options.scales.y.min = Math.max(0.1, minPrice * 0.8);
+                chart.options.scales.y.min = 0.4;
                 chart.options.scales.y.max = maxPrice * 1.2;
                 
                 // Update X Axis
