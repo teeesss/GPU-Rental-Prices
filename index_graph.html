@@ -104,6 +104,27 @@
             .box-header { margin-bottom: 8px; padding-bottom: 4px; }
         }
 
+        /* Tablet Optimization */
+        @media (max-width: 1100px) and (min-width: 769px) {
+            .stat-card .label { font-size: 18px !important; }
+            .stat-card .value { font-size: 20px !important; }
+            .main-grid { grid-template-columns: 1fr 280px; }
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 768px) {
+            .stat-bar { grid-template-columns: repeat(9, 1fr); gap: 2px; margin-bottom: 8px; }
+            .stat-card { padding: 2px; }
+            .stat-card .label { font-size: 10px !important; margin-bottom: 0; }
+            .stat-card .value { font-size: 12px !important; }
+            .stat-card .meta { display: none; }
+            .main-grid { grid-template-columns: 1fr; }
+            .logo h1 { font-size: 10px; }
+            .logo span { display: none; }
+            .filter-bar { justify-content: flex-start; -webkit-overflow-scrolling: touch; padding: 0 4px 4px 4px; }
+            .chip { padding: 3px 6px; font-size: 8.5px; }
+        }
+
         .box {
             background: var(--surface);
             border: 1px solid var(--glass-border);
@@ -140,8 +161,9 @@
 
         .section-header { font-family: var(--mono); font-size: 9px; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 8px 0; border-bottom: 1px solid var(--accent-glow); padding-bottom: 4px; }
 
-        .filter-bar { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; overflow: visible; }
-        .chip { font-family: var(--mono); font-size: 8px; padding: 2px 6px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: var(--text-mid); cursor: pointer; border-radius: 2px; text-transform: uppercase; }
+        .filter-bar { display: flex; gap: 4px; margin: 12px 0; flex-wrap: nowrap; justify-content: center; width: 100%; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+        .filter-bar::-webkit-scrollbar { display: none; }
+        .chip { font-family: var(--mono); font-size: 8px; padding: 2px 6px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: var(--text-mid); cursor: pointer; border-radius: 2px; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; }
         .chip.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
 
         table { width: 100%; border-collapse: collapse; }
