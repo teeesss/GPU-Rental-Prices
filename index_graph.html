@@ -77,7 +77,7 @@
             text-align: center;
             transition: transform 0.2s;
         }
-        .stat-card .label { font-family: var(--mono); font-size: 18px; color: var(--card-color, var(--accent)); text-transform: uppercase; margin-bottom: 4px; display: block; font-weight: 700; }
+        .stat-card .label { font-family: var(--mono); font-size: 32px; color: var(--card-color, var(--accent)); text-transform: uppercase; margin-bottom: 4px; display: block; font-weight: 700; }
         .stat-card .value { font-size: 28px; font-weight: 800; color: #fff; line-height: 1; display: block; letter-spacing: -0.5px; }
         .stat-card .meta { font-size: 10px; color: var(--text-mid); margin-top: 6px; display: block; }
 
@@ -414,7 +414,7 @@
                             type: 'time', 
                             time: { unit: 'month' }, 
                             grid: { display: false }, 
-                            ticks: { font: { family: 'JetBrains Mono', size: 9 }, color: '#bbb' },
+                            ticks: { font: { family: 'JetBrains Mono', size: window.innerWidth < 768 ? 8 : 10 }, color: '#bbb' },
                             min: new Date(new Date().setFullYear(new Date().getFullYear() - 1)).toISOString() // Focus on last 12 months
                         },
                         y: { 
@@ -422,7 +422,7 @@
                             min: 0.4, 
                             grid: { color: 'rgba(255,255,255,0.03)' }, 
                             ticks: { 
-                                font: { family: 'JetBrains Mono', size: 11 }, 
+                                font: { family: 'JetBrains Mono', size: window.innerWidth < 768 ? 9 : 11 }, 
                                 color: '#bbb', 
                                 callback: (v) => {
                                     const val = Number(v);
