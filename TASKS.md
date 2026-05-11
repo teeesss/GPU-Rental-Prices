@@ -1,0 +1,55 @@
+# TASKS
+
+## Active
+- [ ] Add more sources (SiliconData portal, etc.) <!-- id: 7 -->
+
+## Completed
+- [x] **V4.2.9: Accessibility & Visibility Hardening**
+    - [x] Restored Desktop X-axis visibility (fixed height clipping)
+    - [x] Enabled site-wide scrolling (removed body overflow lock)
+    - [x] Brightened axis labels (#bbb) to match mobile preference
+- [x] **V4.2.8: Velocity Intelligence & UI Polish**
+    - [x] Implement 1-year price change tracking (365d lookback)
+    - [x] High-Density Mobile Grid: `1.2fr 1fr 1fr 1fr 1.5fr` layout
+    - [x] Center-aligned stats (AVG, 1M, 1Y) for better mobile spacing
+    - [x] Desktop font scaling: Increased body to 14px (+10%)
+    - [x] Improved row padding (8px) for vertical rhythm
+    - [x] SFTP Sync: Pushed production assets to bmwseals.com
+- [x] **V4.2.7: Market Velocity Intelligence**
+    - [x] Added "Price Chg % 1 Mo" column to Market Intelligence sidebar
+    - [x] Implemented color-coded change indicators (Green up, Red down)
+    - [x] Hardened historical fallback logic for change calculations
+- [x] **V4.2.6: Mobile Experience Optimization**
+    - [x] High-Density Ticker: 9-GPU single-line price ribbon
+    - [x] Vertical Compression: Removed headers to reclaim vertical real estate
+    - [x] Sidebar Tightening: Aggressive padding reduction (1px rows)
+    - [x] Range Fidelity: Included Institutional anchors in visual min/max
+    - [x] Adjust refresh cadence to 2-day cycle (Matches market shifts)
+- [x] **V4.2.1: Institutional Lockdown**
+    - [x] Integrate Institutional Index (ComputePulse)
+    - [x] Implement 50/50 Weighted Pricing Model
+    - [x] Fix May 2026 Chart Regressions (Luxon Time Adapter)
+    - [x] Enforce 3-Source Minimum with Verified Benchmarks
+    - [x] Implement 25% Variance Outlier Protection
+    - [x] Sidebar Alignment & Visual Polish
+    - [x] Autonomous Cron Pipeline (2-day refresh)
+- [x] Implement automated scheduling (Task Scheduler / Cron) <!-- id: 8 -->
+- [x] High-End Focus: Filtered dashboard to 7 priority models (B200, GH200, H200, H100, B300, MI325X, A100) <!-- id: 12 -->
+- [x] Implement Logarithmic Y-axis for price scaling <!-- id: 13 -->
+- [x] Add "View All" expansion for dense tables <!-- id: 14 -->
+- [x] Expand model coverage (GB200, B300, GH200, MI355X, MI325X) <!-- id: 10 -->
+- [x] Resolve "repeated dates" UI bug by adding day-level precision to history table <!-- id: 11 -->
+- [x] Initialize project structure (TASKS.md, CLAUDE.md, etc.) <!-- id: 0 -->
+- [x] Setup Stealth Navigator in local engine directory <!-- id: 1 -->
+- [x] Research and map DOM selectors for priority GPU pricing sites <!-- id: 2 -->
+- [x] Implement database schema for price history <!-- id: 3 -->
+- [x] Build scrapers for identified targets (GetDeploying, Cloud-GPUs) <!-- id: 4 -->
+- [x] Create frontend dashboard for visualization <!-- id: 5 -->
+- [x] Setup SFTP Sync to bmwseals.com/gpus <!-- id: 9 -->
+
+## ISSUES
+- [x] Fixed graph vertical bounce issue by implementing daily data aggregation and re-enabled log scale <!-- id: 15 -->
+- [x] Hardened chart logic: Separated Market Index (dashed) from Provider Averages (solid) to prevent data skew <!-- id: 16 -->
+- [x] Improved UI: Increased top stat card font sizes and constrained sidebar table height <!-- id: 17 -->
+- [x] Smoothed Trends: Implemented 5-day Moving Average (SMA) for all price series to eliminate erratic swings <!-- id: 18 -->
+- [x] Void Reduction: Optimized logarithmic Y-axis baseline to expand lower-priced GPU trends <!-- id: 19 -->

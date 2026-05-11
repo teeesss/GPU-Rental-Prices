@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neocloud Intel | GPU Rental Index V4.2.1</title>
+    <meta name="description" content="Verified GPU rental price index tracking H100, H200, B200, GH200 and AMD MI325X/MI355X across Neocloud providers.">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap');
+
+        :root {
+            --bg: #050505;
+            --surface: #0a0a0a;
+            --surface-raised: #111111;
+            --glass-border: rgba(255,255,255,0.08);
+            --accent: #76b900;
+            --accent-glow: rgba(118,185,0,0.15);
+            --text-main: #f0f0f0;
+            --text-dim: #555;
+            --text-mid: #888;
+            --mono: 'JetBrains Mono', monospace;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 12px 16px;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            overflow: auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--glass-border);
+            margin-bottom: 12px;
+        }
+
+        .logo { display: flex; align-items: center; gap: 12px; }
+        .logo h1 { font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); }
+        .logo-sep { color: var(--glass-border); font-size: 16px; font-weight: 200; }
+        .logo span { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
+
+        .header-meta { display: flex; align-items: center; gap: 16px; font-family: var(--mono); font-size: 9px; color: var(--text-dim); }
+        .header-meta a { color: var(--accent); text-decoration: none; font-weight: 700; border-bottom: 1px solid transparent; transition: all 0.2s; }
+        .header-meta a:hover { border-color: var(--accent); }
+
+        .live-dot { width: 5px; height: 5px; background: var(--accent); border-radius: 50%; display: inline-block; box-shadow: 0 0 8px var(--accent); animation: pulse 2s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1; transform:scale(1);} 50%{opacity:.4; transform:scale(0.8);} }
+
+        /* ── Data Grid ── */
+        .stat-bar {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--glass-border);
+            padding: 10px 8px;
+            border-radius: 2px;
+            text-align: left;
+            position: relative;
+            transition: all 0.3s;
+        }
+        .stat-card::before { content: ''; position: absolute; top: 0; left: 0; width: 2px; height: 100%; background: var(--card-color, var(--accent)); opacity: 0.5; }
+        .stat-card .label { font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-transform: uppercase; margin-bottom: 4px; display: block; }
+        .stat-card .value { font-size: 28px; font-weight: 800; color: #fff; line-height: 1; display: block; letter-spacing: -1px; white-space: nowrap; }
+        .stat-card .meta { font-size: 8px; color: var(--text-mid); margin-top: 6px; display: block; line-height: 1.4; }
+
+        /* ── Layout ── */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 16px;
+            min-height: calc(100vh - 120px);
+        }
+
+        .box {
+            background: var(--surface);
+            border: 1px solid var(--glass-border);
+            border-radius: 4px;
+            padding: 16px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            min-height: 0;
+        }
+
+        .box-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding-bottom: 8px;
+        }
+        .box-title { font-family: var(--mono); font-size: 10px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 2px; }
+        
+        .chart-container { flex: 1; position: relative; min-height: 0; }
+        #intelChart { height: 100% !important; width: 100% !important; }
+
+        .sidebar-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 8px;
+            min-height: 0;
+        }
+        .sidebar-scroll::-webkit-scrollbar { width: 4px; }
+        .sidebar-scroll::-webkit-scrollbar-thumb { background: var(--glass-border); border-radius: 10px; }
+
+        .section-header { font-family: var(--mono); font-size: 9px; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 8px 0; border-bottom: 1px solid var(--accent-glow); padding-bottom: 4px; }
+
+        .filter-bar { display: flex; gap: 6px; margin: 12px 0; flex-wrap: wrap; justify-content: center; width: 100%; }
+        .chip { background: var(--glass); border: 1px solid var(--glass-border); padding: 4px 12px; border-radius: 4px; font-family: var(--mono); font-size: 9px; cursor: pointer; transition: all 0.2s; color: var(--text-mid); }
+        .chip:hover { border-color: rgba(255,255,255,0.2); color: #fff; }
+        .chip.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 800; box-shadow: 0 0 15px var(--accent-glow); }
+
+        .live-link { 
+            display: inline-block; 
+            padding: 8px 12px; 
+            background: var(--glass); 
+            border: 1px solid var(--accent); 
+            color: var(--accent); 
+            font-family: var(--mono); 
+            font-size: 10px; 
+            text-decoration: none; 
+            border-radius: 2px;
+            transition: all 0.2s;
+            margin-top: 12px;
+            width: 100%;
+            text-align: center;
+        }
+        .live-link:hover { background: var(--accent); color: #000; }
+
+        #latest-table-container { 
+            display: none; 
+        }
+        #latest-table-container::-webkit-scrollbar { width: 3px; }
+        #latest-table-container::-webkit-scrollbar-thumb { background: var(--glass-border); }
+
+        /* ── Mobile Optimization (Max 768px) ── */
+        @media (max-width: 768px) {
+            body { 
+                overflow: auto; 
+                padding: 10px; 
+            }
+            
+            header { 
+                flex-direction: column; 
+                align-items: flex-start; 
+                gap: 4px; 
+                padding-bottom: 8px; 
+                margin-bottom: 8px;
+            }
+            .header-meta { 
+                flex-wrap: wrap; 
+                gap: 8px; 
+            }
+
+            .stat-bar {
+                display: grid;
+                grid-template-columns: repeat(9, 1fr);
+                gap: 2px;
+                padding: 0;
+                margin-bottom: 12px;
+                overflow-x: hidden;
+            }
+            
+            .stat-card {
+                background: none;
+                border: none;
+                border-left: 1px solid var(--glass-border);
+                padding: 2px;
+                min-height: 30px;
+                text-align: center;
+            }
+            .stat-card::before { display: none; }
+            .stat-card .label { font-size: 6px; letter-spacing: 0; }
+            .stat-card .value { font-size: 10px; font-weight: 700; letter-spacing: -0.5px; }
+            .stat-card .meta { display: none; }
+
+            .main-grid {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                gap: 12px;
+            }
+
+            .box {
+                padding: 8px;
+                min-height: 350px;
+            }
+            .box:last-child {
+                min-height: auto;
+            }
+
+            .box-header { display: none; } /* Hide labels to gain vertical space */
+
+            .chart-container {
+                height: 280px;
+                min-height: 280px;
+            }
+
+            .filter-bar {
+                justify-content: flex-start;
+                overflow-x: auto;
+                flex-wrap: nowrap;
+                padding-bottom: 4px;
+                margin: 0 0 8px 0;
+                scrollbar-width: none;
+            }
+            .filter-bar::-webkit-scrollbar { display: none; }
+            .chip { flex: 0 0 auto; padding: 3px 10px; }
+
+            .section-header { margin-top: 8px; margin-bottom: 4px; padding-bottom: 2px; }
+            .market-row { padding: 1px 0 !important; }
+        }
+        .market-row { 
+            display: grid; 
+            grid-template-columns: 1.2fr 1fr 1fr 1fr 1.5fr; 
+            align-items: center; 
+            padding: 8px 0; 
+            border-bottom: 1px solid rgba(255,255,255,0.02); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Neocloud Intel</h1>
+            <span class="logo-sep">/</span>
+            <span>GPU Rental Price Index</span>
+        </div>
+        <div class="header-meta">
+            <span><span class="live-dot"></span>Live</span>
+            <span id="sync-status">Ready</span>
+            <span id="record-count"></span>
+            <a href="database/gpu_intel.js" target="_blank">RAW_DATA_NODE</a>
+        </div>
+    </header>
+
+    <div class="stat-bar" id="top-stats"></div>
+
+    <div class="main-grid">
+        <div class="box" style="display: flex; flex-direction: column;">
+            <div class="box-header">
+                <span class="box-title">Institutional Price History</span>
+            </div>
+            <div class="filter-bar" id="filter-bar"></div>
+            <div class="chart-container" style="flex: 1;">
+                <canvas id="intelChart"></canvas>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-header">
+                <span class="box-title">Market Intelligence</span>
+            </div>
+            <div class="sidebar-scroll">
+                <div class="section-header">Historical Index (Avg)</div>
+                <div id="market-stats"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const colors = {
+            'H100': '#76b900', 'H200': '#00a3e0', 'GB200': '#c084fc',
+            'B200': '#fb923c', 'GH200': '#2dd4bf', 'MI355X': '#f43f5e',
+            'MI325X': '#facc15', 'B300': '#4ade80', 'A100': '#94a3b8'
+        };
+
+        async function init() {
+            const syncStatus = document.getElementById('sync-status');
+            syncStatus.textContent = 'Syncing...';
+            
+            const summaryScript = document.createElement('script');
+            summaryScript.src = 'database/gpu_intel.js?t=' + Date.now();
+            document.head.appendChild(summaryScript);
+
+            summaryScript.onload = () => {
+                const data = window.GPU_INTEL;
+                syncStatus.textContent = 'Live • ' + new Date().toLocaleTimeString();
+                
+                const models = ['H100','H200','GB200','B200','GH200','MI355X','MI325X','B300','A100'];
+                const get = (m) => data.stats.find(s => s.gpu === m);
+
+                document.getElementById('top-stats').innerHTML = models.map(m => {
+                    const s = get(m);
+                    if (!s) return '';
+                    return `
+                        <div class="stat-card" style="--card-color: ${colors[m]}">
+                            <span class="label">${m}</span>
+                            <span class="value">$${s.avg_price.toFixed(2)}</span>
+                            <span class="meta">
+                                ${s.source_count} Sources<br/>
+                                <span style="opacity:0.6">W. Avg: 50% Index / 50% Live</span>
+                            </span>
+                        </div>
+                    `;
+                }).join('');
+
+                renderMarketStats(data.stats);
+                renderLatestTable(data.latest);
+                
+                const historyScript = document.createElement('script');
+                historyScript.src = 'database/gpu_history.js?t=' + Date.now();
+                document.head.appendChild(historyScript);
+                
+                historyScript.onload = () => {
+                    const histData = window.GPU_HISTORY.history;
+                    document.getElementById('record-count').textContent = histData.length + ' data nodes';
+                    renderChart(histData);
+                    renderFilters(models, histData);
+                };
+            };
+        }
+
+        let sortConfig = { key: 'avg_price', dir: 'desc' };
+
+        function renderMarketStats(stats) {
+            const container = document.getElementById('market-stats');
+            
+            // Apply sorting
+            const sorted = [...stats].sort((a, b) => {
+                let valA = a[sortConfig.key];
+                let valB = b[sortConfig.key];
+                
+                // Special handling for string (GPU name)
+                if (typeof valA === 'string') {
+                    return sortConfig.dir === 'asc' 
+                        ? valA.localeCompare(valB) 
+                        : valB.localeCompare(valA);
+                }
+                
+                return sortConfig.dir === 'asc' ? valA - valB : valB - valA;
+            });
+            
+            const getIndicator = (key) => {
+                if (sortConfig.key !== key) return '↕';
+                return sortConfig.dir === 'asc' ? '↑' : '↓';
+            };
+
+            // Header Row with click handlers
+            let html = `
+                <div class="market-row" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 4px 0; cursor: pointer;">
+                    <span onclick="toggleSort('gpu')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim);">${getIndicator('gpu')} MODEL</span>
+                    <span onclick="toggleSort('avg_price')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('avg_price')} AVG</span>
+                    <span onclick="toggleSort('chg_1m')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('chg_1m')} 1M</span>
+                    <span onclick="toggleSort('chg_1y')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('chg_1y')} 1Y</span>
+                    <span style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: right;">RANGE</span>
+                </div>
+            `;
+            
+            html += sorted.map(s => {
+                const chg1m = s.chg_1m || 0;
+                const chg1y = s.chg_1y || 0;
+                const c1mColor = chg1m > 0 ? '#4ade80' : (chg1m < 0 ? '#f43f5e' : 'var(--text-dim)');
+                const c1yColor = chg1y > 0 ? '#4ade80' : (chg1y < 0 ? '#f43f5e' : 'var(--text-dim)');
+                const s1m = chg1m > 0 ? '+' : '';
+                const s1y = chg1y > 0 ? '+' : '';
+                
+                return `
+                    <div class="market-row">
+                        <span style="font-family: var(--mono); font-size: 11px; color: ${colors[s.gpu]}">${s.gpu}</span>
+                        <span style="font-family: var(--mono); font-size: 11px; font-weight: 700; color: #fff; text-align: center;">$${s.avg_price.toFixed(2)}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1mColor}; text-align: center;">${s1m}${chg1m.toFixed(1)}%</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1yColor}; text-align: center;">${s1y}${chg1y.toFixed(1)}%</span>
+                        <span style="font-family: var(--mono); font-size: 10px; color: var(--text-dim); text-align: right;">$${s.min_price.toFixed(2)}-$${s.max_price.toFixed(2)}</span>
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = html;
+        }
+
+        function toggleSort(key) {
+            if (sortConfig.key === key) {
+                sortConfig.dir = sortConfig.dir === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortConfig.key = key;
+                sortConfig.dir = 'desc';
+            }
+            renderMarketStats(window.GPU_INTEL.stats);
+        }
+
+        function renderLatestTable(latest) {
+            // Deprecated: Source URLs are available in the RAW_DATA_NODE link
+        }
+
+        let chart = null;
+        function renderChart(history) {
+            const ctx = document.getElementById('intelChart').getContext('2d');
+            if (chart) chart.destroy();
+            const gpus = [...new Set(history.map(r => r.gpu))];
+            
+            const datasets = [];
+            
+            gpus.forEach(gpu => {
+                const marketData = history.filter(r => r.gpu === gpu && !r.category.includes('Index'));
+                const indexData = history.filter(r => r.gpu === gpu && r.category.includes('Index'));
+
+                const marketDaily = {};
+                marketData.forEach(r => {
+                    const dayKey = new Date(r.timestamp).toISOString().split('T')[0];
+                    if (!marketDaily[dayKey]) marketDaily[dayKey] = [];
+                    marketDaily[dayKey].push(r.price_hourly);
+                });
+
+                const instDaily = {};
+                indexData.forEach(r => {
+                    const dayKey = new Date(r.timestamp).toISOString().split('T')[0];
+                    if (!instDaily[dayKey]) instDaily[dayKey] = [];
+                    instDaily[dayKey].push(r.price_hourly);
+                });
+
+                const allDays = [...new Set([...Object.keys(marketDaily), ...Object.keys(instDaily)])].sort();
+                const weightedPoints = allDays.map(day => {
+                    const mPrices = marketDaily[day] || [];
+                    const iPrices = instDaily[day] || [];
+                    const mAvg = mPrices.length ? mPrices.reduce((a,b)=>a+b,0)/mPrices.length : null;
+                    const iAvg = iPrices.length ? iPrices.reduce((a,b)=>a+b,0)/iPrices.length : null;
+                    
+                    let final = 0;
+                    if (mAvg !== null && iAvg !== null) final = (mAvg * 0.5) + (iAvg * 0.5);
+                    else final = mAvg !== null ? mAvg : iAvg;
+
+                    return { x: new Date(day), y: final };
+                });
+
+                if (weightedPoints.length > 0) {
+                    datasets.push({
+                        label: `${gpu} Weighted`,
+                        data: weightedPoints,
+                        borderColor: colors[gpu] || '#fff',
+                        backgroundColor: (context) => {
+                            const chart = context.chart;
+                            const {ctx, chartArea} = chart;
+                            if (!chartArea) return null;
+                            const gradient = ctx.createLinearGradient(0, chartArea.bottom, 0, chartArea.top);
+                            gradient.addColorStop(0, 'transparent');
+                            gradient.addColorStop(1, (colors[gpu] || '#fff') + '15'); // Subtle 15% opacity for multiple fills
+                            return gradient;
+                        },
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 0,
+                        borderWidth: 3,
+                        spanGaps: true,
+                        order: 1,
+                        borderDash: []
+                    });
+                }
+            });
+
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: { datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: { mode: 'index', intersect: false },
+                    plugins: { 
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: 'rgba(10,10,10,0.9)',
+                            titleFont: { family: 'JetBrains Mono', size: 10 },
+                            bodyFont: { family: 'JetBrains Mono', size: 11 },
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1,
+                            padding: 12,
+                            displayColors: true,
+                            callbacks: {
+                                label: (ctx) => {
+                                    if (!ctx.dataset.label.includes('Weighted')) return null;
+                                    return ` ${ctx.dataset.label}: $${Number(ctx.raw.y).toFixed(2)}`;
+                                },
+                                labelColor: function(ctx) {
+                                    return {
+                                        borderColor: '#fff',
+                                        backgroundColor: ctx.dataset.borderColor,
+                                        borderWidth: 1,
+                                        borderRadius: 2
+                                    };
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: { 
+                            type: 'time', 
+                            time: { unit: 'month', displayFormats: { month: 'MMM yyyy' } }, 
+                            grid: { display: true, color: 'rgba(255,255,255,0.05)' }, 
+                            ticks: { 
+                                font: { family: 'JetBrains Mono', size: 10, weight: 'bold' }, 
+                                color: '#aaa', // Brightened for high contrast
+                                maxRotation: 0,
+                                autoSkip: true,
+                                maxTicksLimit: 8
+                            }
+                        },
+                        y: { 
+                            type: 'logarithmic',
+                            grid: { color: 'rgba(255,255,255,0.03)' }, 
+                            ticks: { 
+                                font: { family: 'JetBrains Mono', size: 9 }, 
+                                color: '#bbb', 
+                                callback: (v) => {
+                                    if (v >= 10) return '$' + Math.round(v);
+                                    if (v >= 1) return '$' + v.toFixed(1);
+                                    return '$' + v.toFixed(2);
+                                } 
+                            } 
+                        }
+                    }
+                }
+            });
+
+            // Initial Dynamic Scaling
+            const allPoints = datasets.flatMap(ds => ds.data);
+            if (allPoints.length > 0) {
+                const prices = allPoints.map(p => p.y);
+                const times = allPoints.map(p => p.x.getTime());
+                chart.options.scales.y.min = Math.max(0.1, Math.min(...prices) * 0.8);
+                chart.options.scales.y.max = Math.max(...prices) * 1.2;
+                chart.options.scales.x.min = new Date(Math.min(...times));
+                chart.options.scales.x.max = new Date(Math.max(...times));
+                chart.update();
+            }
+        }
+
+        function renderFilters(models, history) {
+            const bar = document.getElementById('filter-bar');
+            bar.innerHTML = '<div class="chip active" onclick="filterGPU(\'all\', event)">All</div>';
+            models.forEach(m => {
+                bar.innerHTML += `<div class="chip" onclick="filterGPU('${m}', event)">${m}</div>`;
+            });
+        }
+
+        const activeGPUs = new Set(['all']);
+        window.filterGPU = (gpu, e) => {
+            const chip = e.currentTarget;
+            if (gpu === 'all') {
+                activeGPUs.clear();
+                activeGPUs.add('all');
+                document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+                chip.classList.add('active');
+            } else {
+                activeGPUs.delete('all');
+                document.querySelector('.chip[onclick*="all"]').classList.remove('active');
+                if (activeGPUs.has(gpu)) {
+                    activeGPUs.delete(gpu);
+                    chip.classList.remove('active');
+                    if (activeGPUs.size === 0) {
+                        activeGPUs.add('all');
+                        document.querySelector('.chip[onclick*="all"]').classList.add('active');
+                    }
+                } else {
+                    activeGPUs.add(gpu);
+                    chip.classList.add('active');
+                }
+            }
+
+            // Update Dataset Visibility
+            chart.data.datasets.forEach(ds => { 
+                const dsGpu = ds.label.split(' ')[0]; // Matches 'H100' in 'H100 Weighted'
+                ds.hidden = !activeGPUs.has('all') && !activeGPUs.has(dsGpu); 
+            });
+
+            // Dynamic Axis Calculation
+            const visibleData = chart.data.datasets
+                .filter(ds => !ds.hidden)
+                .flatMap(ds => ds.data);
+
+            if (visibleData.length > 0) {
+                const prices = visibleData.map(p => p.y);
+                const times = visibleData.map(p => p.x.getTime());
+                
+                const minPrice = Math.min(...prices);
+                const maxPrice = Math.max(...prices);
+                const minTime = Math.min(...times);
+                const maxTime = Math.max(...times);
+
+                // Update Y Axis
+                chart.options.scales.y.min = Math.max(0.1, minPrice * 0.8);
+                chart.options.scales.y.max = maxPrice * 1.2;
+                
+                // Update X Axis
+                chart.options.scales.x.min = new Date(minTime);
+                chart.options.scales.x.max = new Date(maxTime);
+            }
+
+            chart.update();
+        };
+
+        init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</body>
+</html>

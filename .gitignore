@@ -1,0 +1,36 @@
+node_modules/
+__pycache__/
+*.pyc
+logs/
+*.txt
+research/
+scratch/
+venv/
+.venv/
+database/*.db
+gigacpo_llm_handoff.md
+cpo_master_ultimate.csv
+
+# Ignore contents of database but keep whitelisted files
+database/*
+!database/gpu_intel.js
+!database/gpu_history.js
+
+# Build artifacts
+dist/
+intel.js
+
+.gemini/
+.agent/
+.agents/
+.pytest_cache/
+.cursorrules
+credentials/
+.env
+
+# Temporary / Scratch
+scratch_*.py
+_*.py
+verify_*.py
+HTML-EMAIL-HANDOVER.md
+.vscode/

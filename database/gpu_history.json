@@ -1,0 +1,291 @@
+[
+  {
+    "timestamp": "2026-03-10T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 1.6502756219109136,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.3103858706752787,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.3400551243821827,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-16T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 1.7534786368034954,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.4548700915248935,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.34769572736069904,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-22T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 1.7889551607129526,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.5045372249981335,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.3417910321425905,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-28T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 1.8703454941864872,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.618483691861082,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.3450690988372974,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-03T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.0598292061716776,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.8837608886403485,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.36996584123433557,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-09T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.0884763971430154,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.9238669560002215,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.362695279428603,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-15T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.0297339533904286,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 2.8416275347466,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.33794679067808575,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-21T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.2051215992647126,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 3.0871702389705975,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.3600243198529425,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-27T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.319434744222805,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 3.247208641911927,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.369886948844561,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-03T19:04:35.624247+00:00",
+    "data": [
+      {
+        "gpu": "NVIDIA H100 SXM",
+        "provider": "Lambda",
+        "price_hourly": 2.2033708407187653,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA H200",
+        "provider": "RunPod",
+        "price_hourly": 3.084719177006271,
+        "source": "historical_index"
+      },
+      {
+        "gpu": "NVIDIA RTX 4090",
+        "provider": "Vast.ai",
+        "price_hourly": 0.333674168143753,
+        "source": "historical_index"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-05-09T19:04:35.624922+00:00",
+    "data": [
+      {
+        "gpu": "Nvidia H100",
+        "provider": "80GB HBM3",
+        "price_hourly": 0.54,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia A100",
+        "provider": "40GB / 80GB HBM2e",
+        "price_hourly": 0.13,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia H200",
+        "provider": "141GB HBM3e",
+        "price_hourly": 0.47,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia B200",
+        "provider": "Up to 192GB HBM3e",
+        "price_hourly": 2.25,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia RTX 4090",
+        "provider": "24GB GDDR6X",
+        "price_hourly": 0.07,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "AMD MI300X",
+        "provider": "192GB HBM3",
+        "price_hourly": 0.5,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia B300",
+        "provider": "Up to 288 HBM3e",
+        "price_hourly": 3.4,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia GB200",
+        "provider": "Up to 13.4TB HBM3e",
+        "price_hourly": 10.5,
+        "source": "getdeploying.com"
+      },
+      {
+        "gpu": "Nvidia GH200",
+        "provider": "96GB HBM3 + 480GB LPDDR5X",
+        "price_hourly": 1.99,
+        "source": "getdeploying.com"
+      }
+    ]
+  }
+]
