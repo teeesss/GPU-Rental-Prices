@@ -163,8 +163,8 @@
 
         .filter-bar { display: flex; gap: 4px; margin: 12px 0; flex-wrap: nowrap; justify-content: center; width: 100%; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
         .filter-bar::-webkit-scrollbar { display: none; }
-        .chip { font-family: var(--mono); font-size: 10.5px; padding: 4px 10px; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); color: var(--text-mid); cursor: pointer; border-radius: 2px; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; }
-        .chip.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
+        .chip { font-family: var(--mono); font-size: 10.5px; padding: 4px 10px; background: rgba(255,255,255,0.03); border: 1px solid var(--chip-color, var(--glass-border)); color: var(--chip-color, var(--text-mid)); cursor: pointer; border-radius: 2px; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; transition: all 0.2s; }
+        .chip.active { background: var(--accent) !important; color: #000 !important; border-color: var(--accent) !important; font-weight: 700; box-shadow: 0 0 10px var(--accent-glow); }
 
         table { width: 100%; border-collapse: collapse; }
         th { font-family: var(--mono); text-align: left; padding: 6px 4px; font-size: 8px; color: var(--text-dim); text-transform: uppercase; border-bottom: 1px solid var(--glass-border); position: sticky; top: 0; background: var(--surface); z-index: 10; }
@@ -465,7 +465,8 @@
             const bar = document.getElementById('filter-bar');
             bar.innerHTML = '<div class="chip active" onclick="filterGPU(\'all\', event)">All</div>';
             models.forEach(m => {
-                bar.innerHTML += `<div class="chip" onclick="filterGPU('${m}', event)">${m}</div>`;
+                const color = colors[m] || 'var(--glass-border)';
+                bar.innerHTML += `<div class="chip" style="--chip-color: ${color}" onclick="filterGPU('${m}', event)">${m}</div>`;
             });
         }
 
