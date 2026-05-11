@@ -80,8 +80,8 @@
             position: relative;
             transition: all 0.3s;
         }
-        .stat-card .label { font-family: var(--mono); font-size: 48px; color: var(--card-color, var(--accent)); text-transform: uppercase; margin-bottom: 4px; display: block; font-weight: 700; }
-        .stat-card .value { font-size: 34px; font-weight: 800; color: #fff; line-height: 1; display: block; letter-spacing: -1px; white-space: nowrap; }
+        .stat-card .label { font-family: var(--mono); font-size: 48px !important; color: var(--card-color, var(--accent)); text-transform: uppercase; margin-bottom: 4px; display: block; font-weight: 700; }
+        .stat-card .value { font-size: 34px !important; font-weight: 800; color: #fff; line-height: 1; display: block; letter-spacing: -1px; white-space: nowrap; }
         .stat-card .meta { font-size: 10px; color: var(--text-mid); margin-top: 6px; display: block; line-height: 1.4; }
 
         /* ── Layout ── */
@@ -101,8 +101,8 @@
             header { margin-bottom: 8px; padding-bottom: 4px; }
             .stat-bar { margin-bottom: 8px; }
             .stat-card { padding: 6px 4px; }
-            .stat-card .value { font-size: 18px; }
-            .stat-card .label { font-size: 7px; margin-bottom: 2px; }
+            .stat-card .value { font-size: 28px !important; }
+            .stat-card .label { font-size: 32px !important; margin-bottom: 2px; }
             .box { padding: 10px; }
             .box-header { margin-bottom: 8px; padding-bottom: 4px; }
         }
@@ -208,8 +208,8 @@
                 text-align: center;
             }
             .stat-card::before { display: none; }
-            .stat-card .label { font-size: 6px; letter-spacing: 0; }
-            .stat-card .value { font-size: 10px; font-weight: 700; letter-spacing: -0.5px; }
+            .stat-card .label { font-size: 28px !important; letter-spacing: 0; }
+            .stat-card .value { font-size: 20px !important; font-weight: 700; letter-spacing: -0.5px; }
             .stat-card .meta { display: none; }
 
             .main-grid {
@@ -235,9 +235,9 @@
             }
 
             .filter-bar {
-                justify-content: flex-start;
-                overflow-x: auto;
-                flex-wrap: nowrap;
+                justify-content: center;
+                overflow: visible;
+                flex-wrap: wrap;
                 padding-bottom: 4px;
                 margin: 0 0 8px 0;
                 scrollbar-width: none;
