@@ -4,6 +4,22 @@
 - [ ] Add more sources (SiliconData portal, etc.) <!-- id: 7 -->
 
 ## Completed
+- [x] **V4.2.25: Color-Synchronized Interface**
+    - [x] Color-coded GPU filters to match chart palettes
+    - [x] Preserved Green Highlight for active filter states
+- [x] **V4.2.24: Desktop Aesthetic Hardening**
+    - [x] Boosted Desktop Filter chips to 10.5px (20% increase)
+    - [x] Expanded padding (5px 12px) for premium desktop interaction
+- [x] **V4.2.23: Universal Responsive Hardening**
+    - [x] Implemented Two-Tier Vertical Scaling (850px & 750px thresholds)
+    - [x] Locked Filters to single-line with touch-scroll fallback
+    - [x] Optimized Narrow Desktop (1101px-1300px) grid integrity
+- [x] **V4.2.21: GPU Label Calibration (The 50% Rule)**
+    - [x] Resized GPU Name labels to 27px (Desktop) and 10px (Mobile)
+    - [x] Enforced single-line filter mandate globally
+- [x] **V4.2.20: Cache-Bypass Hardening**
+    - [x] Implemented `!important` font-size overrides to bypass stale caches
+    - [x] Boosted GPU Name labels to 48px (Iterated down to 27px in V4.2.21)
 - [x] **V4.2.9: Accessibility & Visibility Hardening**
     - [x] Restored Desktop X-axis visibility (fixed height clipping)
     - [x] Enabled site-wide scrolling (removed body overflow lock)

@@ -1,16 +1,23 @@
 # Project Intelligence: GPU Rental Index
 
-## 📐 UI/UX Standards (V4.2.8+)
+## 📐 UI/UX Standards (V4.2.25+)
 
 ### Desktop Strategy
 - **Base Font Size**: `14px` (`body`).
+- **GPU Name Labels**: `27px` (`!important` for focus, 50% boost from baseline).
+- **Dashboard Values**: `34px` (Aggressive price prominence).
 - **Data Table Fonts**: `11px` for GPU rows.
 - **Layout**: Flexible grid with specific focus on readability.
 - **Sidebar**: Standard `340px` fixed width.
 - **Charts**: 5-day SMA smoothing; Logarithmic Y-axis to maintain H100 vs GB200 visibility.
+- **Two-Tier Height Scaling**: 
+    - `< 850px`: Reduces card padding and meta-text visibility.
+    - `< 750px`: Reduces GPU labels to `12px` and prices to `20px` to maintain zero-scroll mandate.
 
 ### Mobile Strategy (Prioritize Density)
+- **GPU Name Labels**: `10px` (Optimized for tight vertical space).
 - **High-Density Grid**: `1.2fr 1fr 1fr 1fr 1.5fr` layout to fit 5 columns.
+- **Filters**: Single-line mandate (`flex-wrap: nowrap`) with 15% size boost (8.5px) and touch-scroll fallback.
 - **Alignment**: 
     - MODEL: Left
     - AVG: Center

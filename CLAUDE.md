@@ -39,7 +39,10 @@ category = "Market Index" | "Marketplace" | "Neocloud" | "Institutional Index"
 - V3.0.0 — SMA Smoothing (5-day) and Logarithmic scaling.
 - V4.0.0 — Institutional Index Integration (ComputePulse).
 - V4.1.0 — 50/50 Weighted Pricing Engine.
-- V4.2.1 — **Institutional Lockdown**: Enforced 3-source minimum, 25% variance protection, and Luxon timeline scaling fix.
+- V4.2.1 — **Institutional Lockdown**: Enforced source density and variance gates.
+- V4.2.21 — **Label Calibration**: Calibrated GPU labels to 50% increase (27px Desktop).
+- V4.2.23 — **Universal Responsive**: Tablet/Mobile/Low-Height Desktop hardening.
+- V4.2.25 — **Color Sync**: GPU filters color-coded to match model-specific chart palettes.
 - V4.2.7 — **Market Velocity**: Added 1-month price change indicators.
 - V4.2.8 — **Velocity Intelligence**: Added 1-year change tracking, high-density mobile grid, and font-scaling optimization.
 - V4.2.9 — **Visibility Hardening**: Fixed X-axis clipping, enabled site scrolling, and brightened axis labels to match mobile.

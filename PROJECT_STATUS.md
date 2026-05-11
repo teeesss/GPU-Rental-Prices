@@ -1,13 +1,18 @@
 # PROJECT STATUS
 
 ## Current Status
-- **V4.2.6 Live** at https://bmwseals.com/gpus
-- High-density **Mobile Optimization** fully deployed (9-column single-line ticker).
+- **V4.2.25 Live** at https://bmwseals.com/gpus
+- **Visual Hardening Milestone**: GPU Labels calibrated to 50% increase (27px Desktop).
+- **Universal Responsiveness**: Two-tier vertical scaling and single-line filter mandate active.
+- **Color Synchronization**: Filters now match model-specific chart palettes.
 - Institutional-grade **50/50 Weighted Pricing Engine** operational.
 - Autonomous refresh pipeline running every 2 days via `gpu.sh`.
 - Synthetic verification (3-source min) and 25% variance protection active.
 
 ## Recent Milestones
+- [2026-05-10] **V4.2.25**: Color-Synchronized Filters. Chips match model palettes; Active stays green.
+- [2026-05-10] **V4.2.23**: Universal Responsive Hardening. Tablet/Mobile/Low-Height Desktop tiers.
+- [2026-05-10] **V4.2.21**: GPU Label Calibration. 27px Desktop / 10px Mobile focus.
 - [2026-05-10] **V4.2.9**: Accessibility Hardening. Restored X-axis visibility, enabled scrolling, and brightened labels.
 - [2026-05-10] **V4.2.8**: Velocity Intelligence. Added 1-year changes, 5-col mobile grid, and font scaling.
 - [2026-05-10] **V4.2.6**: Mobile Optimization. Single-line ticker, vertical compression, and sidebar tightening.

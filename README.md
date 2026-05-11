@@ -1,50 +1,26 @@
-# GPU Price Over Time — V4.2.6
+# Neocloud GPU Intelligence Engine (V4.2.25)
 
-**Sovereign Neocloud Intelligence Engine**
+> Institutional-grade GPU rental price tracking and market intelligence.
 
-Tracks and visualizes GPU rental prices across AI Neoclouds, cloud marketplaces, and institutional indices. Renders a live dashboard at [bmwseals.com/gpus](https://bmwseals.com/gpus/).
-
----
-
-## Architecture: The 50/50 Weighted Engine
-
-The V4.2.1 engine implements an institutional-grade pricing model to ensure data stability and accuracy:
-
-1. **Market Intelligence**: Real-time scraper pulls from GetDeploying, Vast.ai, RunPod, and Nebius.
-2. **Institutional Index**: Automated anchor pull from ComputePulse.net.
-3. **Synthetic Verification**: Ensures a minimum of 3 sources per GPU by injecting verified benchmarks (filtered by a 25% variance guardrail).
-4. **Weighted Averaging**: Calculates a final "Truth" price using a 50/50 split between Market Medians and Institutional Indices.
-5. **Mobile-First UX**: High-density 9-column single-line ticker and vertical compression for vertical viewport situational awareness.
+**Live Dashboard**: [bmwseals.com/gpus](https://bmwseals.com/gpus/?v=425)
 
 ---
 
-## Production Pipeline
+## 🚀 Overview
+Tracks and visualizes GPU rental prices across AI Neoclouds, cloud marketplaces, and institutional indices. High-density market intelligence delivered through an automated pipeline.
 
-### Manual Run
+## 🛠️ Tech Stack
+- **Frontend**: Vanilla HTML/JS, Chart.js, Luxon
+- **Backend**: Python 3.12 (Playwright, SQLite)
+- **Deployment**: Autonomous SFTP Sync
+
+## 📐 Standards (V4.2.25)
+- **50% Scaling Rule**: GPU Labels boosted to 27px (Desktop) / 10px (Mobile).
+- **Universal Responsive**: Precision scaling across Desktop, Tablet, and Mobile.
+- **Color Sync**: UI elements color-matched to GPU model chart palettes.
+
+## ⚙️ Usage
 ```bash
-./gpu.sh
+./gpu.sh         # Run automated pipeline (2-day stale gate)
+./gpu.sh --force # Force production update
 ```
-
-### Cron Job (Linux)
-Recommended: Every 2 days at 6am.
-```bash
-0 6 */2 * * cd /path/to/GPU_Price_Over_Time && ./gpu.sh >> logs/cron.log 2>&1
-```
-
-### Windows Task Scheduler
-Create a task to run `python.exe gpu_pulse.py` every 2 days at 6am.
-
----
-
-## Files Reference
-
-| File | Purpose |
-|---|---|
-| `gpu_pulse.py` | Primary entry point (Staleness-gated) |
-| `engine/scraper.py` | Phase 1: All live scrapers & Institutional pull |
-| `engine/build_intel.py` | Phase 2: Weighted aggregation & Synthetic verification |
-| `engine/remote_sync.py` | Phase 3: Secure SFTP deployment |
-| `web/index.html` | Dashboard (Chart.js V4 + Luxon) |
-| `database/gpu_intel.db` | SQLite Historical Vault |
-| `database/gpu_history.js` | Time-series data bridge |
-| `database/gpu_intel.js` | Summary & Stats data bridge |
