@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neocloud Intel | GPU Rental Index V4.2.1</title>
+    <title>Neocloud Intel | GPU Rental Index V4.2.27</title>
     <meta name="description" content="Verified GPU rental price index tracking H100, H200, B200, GH200 and AMD MI325X/MI355X across Neocloud providers.">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -84,7 +84,7 @@
         /* ── Layout ── */
         .main-grid {
             display: grid;
-            grid-template-columns: 1fr 340px;
+            grid-template-columns: 1fr 390px;
             gap: 16px;
             min-height: calc(100vh - 120px);
         }
@@ -108,7 +108,7 @@
         @media (max-width: 1100px) and (min-width: 769px) {
             .stat-card .label { font-size: 18px !important; }
             .stat-card .value { font-size: 20px !important; }
-            .main-grid { grid-template-columns: 1fr 280px; }
+            .main-grid { grid-template-columns: 1fr 330px; }
         }
 
         /* Mobile Optimization */
@@ -215,9 +215,8 @@
                 <span class="box-title">Market Intelligence</span>
             </div>
             <div class="sidebar-scroll">
-                <div class="section-header">Historical Index (Avg)</div>
+                <div class="section-header">Weighted Price Index</div>
                 <div id="market-stats"></div>
-                
             </div>
         </div>
     </div>
@@ -239,7 +238,28 @@
 
             summaryScript.onload = () => {
                 const data = window.GPU_INTEL;
-                syncStatus.textContent = 'Live • ' + new Date().toLocaleTimeString();
+                
+                let priceDateStr = 'Recent';
+                let priceDateTimeStr = '';
+                try {
+                    const ts = (data.latest && data.latest[0]) ? data.latest[0].timestamp : data.last_updated;
+                    if (ts) {
+                        const d = new Date(ts);
+                        const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                        priceDateStr = `${months[d.getMonth()]} ${d.getDate()}`;
+                        
+                        let hours = d.getHours();
+                        const ampm = hours >= 12 ? 'PM' : 'AM';
+                        hours = hours % 12;
+                        hours = hours ? hours : 12;
+                        const minutes = d.getMinutes().toString().padStart(2, '0');
+                        priceDateTimeStr = `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} ${hours}:${minutes} ${ampm}`;
+                    }
+                } catch (err) {
+                    console.error("Date formatting failed", err);
+                }
+                
+                syncStatus.textContent = priceDateTimeStr ? `As of ${priceDateTimeStr}` : 'Live • ' + new Date().toLocaleTimeString();
                 
                 const models = ['H100','H200','GB200','B200','GH200','MI355X','MI325X','B300','A100'];
                 const get = (m) => data.stats.find(s => s.gpu === m);
@@ -247,11 +267,22 @@
                 document.getElementById('top-stats').innerHTML = models.map(m => {
                     const s = get(m);
                     if (!s) return '';
+                    
+                    let breakdownStr = '';
+                    if (s.inst_price !== null && s.inst_price !== undefined) {
+                        breakdownStr = `Inst: $${s.inst_price.toFixed(2)} | Spot: $${s.market_price.toFixed(2)}`;
+                    } else {
+                        breakdownStr = `Spot: $${s.market_price.toFixed(2)} (No Inst)`;
+                    }
+
                     return `
                         <div class="stat-card" style="--card-color: ${colors[m]}">
-                            <span class="label">${m}</span>
+                            <span class="label">${m}<span style="font-size: 9px; opacity: 0.65; font-weight: 500; display: block; margin-top: 1px; font-family: var(--mono); letter-spacing: 0.5px;">${priceDateStr}</span></span>
                             <span class="value">$${s.avg_price.toFixed(2)}</span>
-                            <span class="meta">${s.source_count} Sources</span>
+                            <span class="meta">
+                                <strong style="color: #fff">Weighted Index</strong><br/>
+                                <span style="opacity:0.75; font-size: 8.5px; font-family: var(--mono);">${breakdownStr}</span>
+                            </span>
                         </div>
                     `;
                 }).join('');
@@ -295,34 +326,45 @@
             // Header Row with click handlers
             let html = `
                 <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 0; margin-bottom: 4px; border-bottom: 1px solid rgba(255,255,255,0.05); cursor: pointer;">
-                    <span onclick="toggleSort('gpu')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); width: 45px;">${getIndicator('gpu')} MODEL</span>
-                    <span onclick="toggleSort('avg_price')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); width: 55px; text-align: center;">${getIndicator('avg_price')} AVG</span>
-                    <span onclick="toggleSort('chg_1m')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); width: 55px; text-align: center;">${getIndicator('chg_1m')} 1M</span>
-                    <span onclick="toggleSort('chg_1y')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); width: 55px; text-align: center;">${getIndicator('chg_1y')} 1Y</span>
-                    <span style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); flex: 1; text-align: right;">RANGE</span>
+                    <span onclick="toggleSort('gpu')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 38px;">${getIndicator('gpu')} MODEL</span>
+                    <span onclick="toggleSort('avg_price')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 48px; text-align: center;">${getIndicator('avg_price')} AVG</span>
+                    <span onclick="toggleSort('chg_1w')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 44px; text-align: center;">${getIndicator('chg_1w')} 1W</span>
+                    <span onclick="toggleSort('chg_1m')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 44px; text-align: center;">${getIndicator('chg_1m')} 1M</span>
+                    <span onclick="toggleSort('chg_ytd')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 44px; text-align: center;">${getIndicator('chg_ytd')} YTD</span>
+                    <span onclick="toggleSort('chg_1y')" style="font-family: var(--mono); font-size: 8px; color: #ccc; width: 44px; text-align: center;">${getIndicator('chg_1y')} 1Y</span>
+                    <span style="font-family: var(--mono); font-size: 8px; color: #ccc; flex: 1; text-align: center;">RANGE</span>
                 </div>
             `;
             
             html += sorted.map(s => {
+                const chg1w = s.chg_1w || 0;
                 const chg1m = s.chg_1m || 0;
+                const chgytd = s.chg_ytd || 0;
                 const chg1y = s.chg_1y || 0;
+                const c1wColor = chg1w > 0 ? '#4ade80' : (chg1w < 0 ? '#f43f5e' : 'var(--text-dim)');
                 const c1mColor = chg1m > 0 ? '#4ade80' : (chg1m < 0 ? '#f43f5e' : 'var(--text-dim)');
+                const cytdColor = chgytd > 0 ? '#4ade80' : (chgytd < 0 ? '#f43f5e' : 'var(--text-dim)');
                 const c1yColor = chg1y > 0 ? '#4ade80' : (chg1y < 0 ? '#f43f5e' : 'var(--text-dim)');
-                const s1m = chg1m > 0 ? '+' : '';
-                const s1y = chg1y > 0 ? '+' : '';
+                const s1w = Math.abs(chg1w).toFixed(1) + '%';
+                const s1m = Math.abs(chg1m).toFixed(1) + '%';
+                const sytd = Math.abs(chgytd).toFixed(1) + '%';
+                const s1y = Math.abs(chg1y).toFixed(1) + '%';
                 
                 return `
                     <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.02);">
-                        <span style="font-family: var(--mono); font-size: 11px; color: ${colors[s.gpu]}; width: 45px;">${s.gpu}</span>
-                        <span style="font-family: var(--mono); font-size: 11px; font-weight: 700; width: 55px; text-align: center;">$${s.avg_price.toFixed(2)}</span>
-                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1mColor}; width: 55px; text-align: center;">${s1m}${chg1m.toFixed(1)}%</span>
-                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1yColor}; width: 55px; text-align: center;">${s1y}${chg1y.toFixed(1)}%</span>
-                        <span style="font-size: 10px; color: var(--text-dim); flex: 1; text-align: right;">$${s.min_price.toFixed(2)}-$${s.max_price.toFixed(2)}</span>
+                        <span style="font-family: var(--mono); font-size: 11px; color: ${colors[s.gpu]}; width: 38px;">${s.gpu}</span>
+                        <span style="font-family: var(--mono); font-size: 11px; font-weight: 700; width: 48px; text-align: center;">$${s.avg_price.toFixed(2)}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1wColor}; width: 44px; text-align: center;">${s1w}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1mColor}; width: 44px; text-align: center;">${s1m}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${cytdColor}; width: 44px; text-align: center;">${sytd}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1yColor}; width: 44px; text-align: center;">${s1y}</span>
+                        <span style="font-size: 10px; color: #ccc; flex: 1; text-align: right;">$${s.min_price.toFixed(2)}-$${s.max_price.toFixed(2)}</span>
                     </div>
                 `;
             }).join('');
             
             container.innerHTML = html;
+
         }
 
         function toggleSort(key) {

@@ -1,26 +1,91 @@
-# Neocloud GPU Intelligence Engine (V4.2.25)
+# Neocloud GPU Intelligence Engine (V4.2.31)
 
-> Institutional-grade GPU rental price tracking and market intelligence.
+> Institutional-grade GPU rental price tracking and autonomous market intelligence.
 
-**Live Dashboard**: [bmwseals.com/gpus](https://bmwseals.com/gpus/?v=425)
+[![Live Dashboard](https://img.shields.io/badge/Live-bmwseals.com/gpus-green?style=for-the-badge)](https://bmwseals.com/gpus/)
 
 ---
 
 ## 🚀 Overview
-Tracks and visualizes GPU rental prices across AI Neoclouds, cloud marketplaces, and institutional indices. High-density market intelligence delivered through an automated pipeline.
+The **Sovereign Neocloud Intelligence Engine** is a robust pipeline for tracking, analyzing, and visualizing GPU rental prices across the global Neocloud market. It bridges the gap between institutional indices and retail marketplace pricing through a weighted intelligence model.
+
+### Key Features
+- **Weighted Intelligence**: 50/50 model balancing Institutional Indices (ComputePulse) vs. Marketplace Realities.
+- **Autonomous Pipeline**: Scrape → Build → Sync cycle with 2-day staleness gating.
+- **Resilient Architecture**: Local filesystem temp-scraping & single-transaction merge for 100% reliable SQLite locking across network mounts.
+- **Stealth Browsing**: V28 Stealth Navigator bypassing 2026-grade bot detection.
+- **Universal Design**: Multi-tier vertical scaling and color-synchronized UI elements.
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend**: Vanilla HTML/JS, Chart.js, Luxon
-- **Backend**: Python 3.12 (Playwright, SQLite)
-- **Deployment**: Autonomous SFTP Sync
+- **Engine**: Python 3.12+ (Playwright, SQLite3, Paramiko)
+- **Frontend**: Vanilla HTML5, CSS3 (Glassmorphism), Chart.js (Luxon Adapter)
+- **Infrastructure**: WSL2/Linux (ext4), SFTP Production Sync
+- **Design**: "Antigravity" Design System (27px Desktop Focus)
 
-## 📐 Standards (V4.2.25)
-- **50% Scaling Rule**: GPU Labels boosted to 27px (Desktop) / 10px (Mobile).
-- **Universal Responsive**: Precision scaling across Desktop, Tablet, and Mobile.
-- **Color Sync**: UI elements color-matched to GPU model chart palettes.
+---
 
 ## ⚙️ Usage
+
+### Quick Start
 ```bash
-./gpu.sh         # Run automated pipeline (2-day stale gate)
-./gpu.sh --force # Force production update
+./gpu.sh         # Runs ingestion + build + deploy (if data > 2 days old)
+./gpu.sh --force # Force an immediate production update
+./gpu.sh --check # Just check the current data age
 ```
+
+### Manual Controls
+```bash
+python gpu_pulse.py --check              # Check status without shell wrapper
+python engine/scraper.py                 # Run ingestion only
+python engine/build_intel.py             # Rebuild JS artifacts from DB
+python engine/remote_sync.py             # Sync to production manually
+```
+
+---
+
+## 📐 Architecture
+- **Ingestion**: `engine/scraper.py` orchestrates multi-source scraping (GetDeploying, Vast, RunPod, Nebius).
+- **Institutional Data**: `engine/index_scraper.py` handles ComputePulse (includes automated email wall bypass).
+- **Intelligence Bridge**: `engine/build_intel.py` aggregates data, applies weights, and generates `database/gpu_intel.js`.
+- **Persistence**: `~/gpu_intel_temp.db` (Local ext4 temp DB) for scraping; merged into `database/gpu_intel.db` (Workspace DB) for persistence.
+- **Stealth**: `engine/stealth_navigator.py` provides Chrome-grade fingerprinting.
+
+---
+
+## 🔧 Environment Setup
+Copy `.env.example` to `.env` and configure:
+```ini
+SFTP_HOST=bmwseals.com
+SFTP_USER=...
+SFTP_PASS=...
+SFTP_PATH=/path/to/public_html/gpus
+```
+
+### Prerequisites
+- Python 3.12+
+- `pip install -r requirements.txt`
+- `playwright install chromium`
+
+---
+
+## 🧪 Testing
+Run the smoke test to verify database and artifact integrity:
+```bash
+python smoke_test.py
+```
+Refer to [TEST_GUIDE.md](file:///z:/GPU_Price_Over_Time/TEST_GUIDE.md) for more details.
+
+---
+
+## 📜 Version History
+- **V4.2.31**: YTD Column Integration. Added Year-to-Date (YTD) price changes, widened sidebar layout on desktop/tablet, aligned column headers to `#ccc` font color, and centered the RANGE header.
+- **V4.2.30**: 1W Change & Evasion Hardening. Added 1-week price changes (1W), changed W. AVG to AVG, unified playwright-stealth to 2.0.3, and migrated to temp-scrape-and-merge DB pattern.
+- **V4.2.26**: Reliability Hardening. Native FS migration & ComputePulse email bypass.
+- **V4.2.25**: Color-Synchronized Filters.
+- **V4.2.23**: Universal Responsive Tiering.
+- **V4.2.1**: GA Release with Institutional Weights.
+
+---
+© 2026 Sovereign Neocloud Intelligence. All rights reserved.

@@ -8,7 +8,7 @@
 - **Dashboard Values**: `34px` (Aggressive price prominence).
 - **Data Table Fonts**: `11px` for GPU rows.
 - **Layout**: Flexible grid with specific focus on readability.
-- **Sidebar**: Standard `340px` fixed width.
+- **Sidebar**: Standard `390px` fixed width.
 - **Charts**: 5-day SMA smoothing; Logarithmic Y-axis to maintain H100 vs GB200 visibility.
 - **Two-Tier Height Scaling**: 
     - `< 850px`: Reduces card padding and meta-text visibility.
@@ -21,18 +21,22 @@
 - **Alignment**: 
     - MODEL: Left
     - AVG: Center
+    - CHG 1W: Center
     - CHG 1M: Center
+    - YTD: Center
     - CHG 1Y: Center
-    - RANGE: Right
+    - RANGE: Center
 - **Vertical Rhythm**: `8px` row padding for "breathing room" in dense lists.
 - **Navigation**: Eliminates non-essential labels to fit Chart + Market stats in one viewport.
 
 ### Column Definitions
 1. **MODEL**: Canonical GPU name (e.g., H100).
 2. **AVG**: 50/50 Weighted Index (Institutional Index + Market Median).
-3. **CHG 1M**: % Change from 30 days ago (fallback to earliest record).
-4. **CHG 1Y**: % Change from 365 days ago (fallback to earliest record).
-5. **RANGE**: High/Low delta across all verified sources.
+3. **CHG 1W**: % Change from 7 days ago (fallback to earliest record).
+4. **CHG 1M**: % Change from 30 days ago (fallback to earliest record).
+5. **YTD**: % Change from January 1st of the current year (fallback to earliest record).
+6. **CHG 1Y**: % Change from 365 days ago (fallback to earliest record).
+7. **RANGE**: High/Low delta across all verified sources.
 
 ---
 
@@ -52,7 +56,8 @@
 ### Change Calculations
 - **Lookback Periods**: 30 days (1M), 365 days (1Y).
 - **Fallback Logic**: If historical data is missing for the exact target date, the engine selects the **earliest available record** for that GPU.
-- **Formatting**: Always include `+` or `-` sign with 1-decimal precision.
+- **Formatting**: Show absolute (unsigned) change percentages with 1-decimal precision; direction is indicated purely by color-coding (Green for up, Red for down).
+- **Reliability Logic**: SQLite concurrency is managed via **WAL mode** and a **30s busy timeout** for resilience on network mounts.
 
 ---
 
@@ -68,3 +73,9 @@
 - **Frontend**: Vanilla HTML/JS, Chart.js, Luxon.
 - **Backend**: Python 3.12, SQLite, Playwright.
 - **Automation**: `gpu_pulse.py` (Orchestrator) & Cron.
+- **Locking Pattern**: Scraping is performed into a local VM temporary database (`$HOME/gpu_intel_temp.db`). On completion, the main database (`database/gpu_intel.db` in the workspace mount) is backed up to `gpu_intel.db.bak`, and new records are merged into the main database in a single transaction (ATTACH + INSERT). This eliminates long network locks during scraper runs.
+- **Copy Mechanism**: To move database files across mounts without corruption under active WAL mode, a checkpoint is executed first (`PRAGMA wal_checkpoint(TRUNCATE)`) followed by a standard file system sequential copy (`cp`) to avoid slow page-by-page db.backup writes.
+- **Subprocess Pattern**: Always use `sys.executable` to ensure child scripts use the same interpreter/venv as the parent pulse runner.
+- **Venv Fallback**: Shell scripts `gpu.sh` and `test_gpus.sh` dynamically check if either local `./venv` or fallback `~/.venv_gpu_intel` are functional, reusing the fallback virtual environment if it already exists to bypass slow recreation cycles on mounted filesystems.
+
+

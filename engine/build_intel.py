@@ -1,13 +1,14 @@
 import sqlite3
 import json
 import logging
+import os
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from scraper import VERIFIED_BENCHMARKS
 
 ROOT = Path(__file__).parent.parent
-DB_PATH = ROOT / "database" / "gpu_intel.db"
-BRIDGE_FILE = DB_PATH.parent / "gpu_intel.js"
+DB_PATH = Path(os.environ.get("GPU_DB_PATH", ROOT / "database" / "gpu_intel.db"))
+BRIDGE_FILE = ROOT / "database" / "gpu_intel.js"
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("build_intel")
@@ -37,12 +38,22 @@ def get_historical_avg(c, gpu, target_date_iso):
         return (inst_price * 0.5) + (market_price * 0.5)
     return inst_price or market_price
 
+def get_median(lst):
+    if not lst: return None
+    s = sorted(lst)
+    n = len(s)
+    if n % 2 == 1:
+        return s[n // 2]
+    else:
+        return (s[n // 2 - 1] + s[n // 2]) / 2.0
+
 def build():
     if not DB_PATH.exists():
         log.error("Database missing.")
         return
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=30)
+    conn.execute("PRAGMA journal_mode=WAL")
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
     
@@ -88,7 +99,10 @@ def build():
     except:
         now_dt = datetime.now(timezone.utc)
     month_ago_iso = (now_dt - timedelta(days=30)).isoformat()
+    week_ago_iso  = (now_dt - timedelta(days=7)).isoformat()
     year_ago_iso  = (now_dt - timedelta(days=365)).isoformat()
+    ytd_iso       = datetime(now_dt.year, 1, 1, tzinfo=timezone.utc).isoformat()
+
 
     stats = []
     for gpu in all_gpus:
@@ -105,6 +119,19 @@ def build():
         """, (last_ts, gpu))
         rows = c.fetchall()
         market_prices = [r[0] for r in rows]
+        
+        # Throw out outliers deviating >35% from the median (only if at least 3 samples present)
+        med = get_median(market_prices)
+        if med is not None and len(market_prices) >= 3:
+            filtered_prices = []
+            for p in market_prices:
+                dev = abs(p - med) / med
+                if dev <= 0.35:
+                    filtered_prices.append(p)
+                else:
+                    log.warning(f"Discarding outlier pricing for {gpu}: ${p:.2f} (Median: ${med:.2f}, Deviation: {dev*100:.1f}%)")
+            market_prices = filtered_prices
+
         market_count = len(market_prices)
         
         # --- PHASE 2.5: Inject Verified Benchmarks (within 25% variance) ---
@@ -144,6 +171,11 @@ def build():
             final_avg = market_price or 0.0
             
         # Calculate Changes
+        old_price_1w = get_historical_avg(c, gpu, week_ago_iso)
+        chg_1w = 0.0
+        if old_price_1w and old_price_1w > 0:
+            chg_1w = ((final_avg - old_price_1w) / old_price_1w) * 100
+
         old_price_1m = get_historical_avg(c, gpu, month_ago_iso)
         chg_1m = 0.0
         if old_price_1m and old_price_1m > 0:
@@ -154,6 +186,11 @@ def build():
         if old_price_1y and old_price_1y > 0:
             chg_1y = ((final_avg - old_price_1y) / old_price_1y) * 100
 
+        old_price_ytd = get_historical_avg(c, gpu, ytd_iso)
+        chg_ytd = 0.0
+        if old_price_ytd and old_price_ytd > 0:
+            chg_ytd = ((final_avg - old_price_ytd) / old_price_ytd) * 100
+
         stats.append({
             "gpu": gpu,
             "avg_price": final_avg,
@@ -161,10 +198,13 @@ def build():
             "market_price": market_price,
             "min_price": min_price,
             "max_price": max_price,
+            "chg_1w": chg_1w,
             "chg_1m": chg_1m,
+            "chg_ytd": chg_ytd,
             "chg_1y": chg_1y,
             "source_count": market_count + (1 if inst_price else 0)
         })
+
     
     log.info(f"Calculated weighted aggregates for {len(stats)} GPU models.")
     
@@ -190,11 +230,11 @@ def build():
     }
     
     # Write Summary (Small)
-    summary_file = DB_PATH.parent / "gpu_intel.js"
+    summary_file = ROOT / "database" / "gpu_intel.js"
     summary_file.write_text(f"window.GPU_INTEL = {json.dumps(summary_payload, indent=2)};", encoding="utf-8")
     
     # Write History (Large)
-    history_file = DB_PATH.parent / "gpu_history.js"
+    history_file = ROOT / "database" / "gpu_history.js"
     history_file.write_text(f"window.GPU_HISTORY = {json.dumps(history_payload, indent=2)};", encoding="utf-8")
     
     conn.close()

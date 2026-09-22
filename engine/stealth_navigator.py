@@ -7,6 +7,7 @@ import sys
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
 
+
 # Ensure UTF-8 output even on Windows
 if sys.stdout.encoding != "utf-8":
     import io
@@ -67,6 +68,7 @@ class StealthNavigator:
 
         stealth_engine = Stealth()
         await stealth_engine.apply_stealth_async(self.context)
+
 
         # 2026 HARDWARE MASKING
         await self.context.add_init_script("""

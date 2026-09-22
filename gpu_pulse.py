@@ -12,14 +12,16 @@ Cron (Linux):
         0 6 */2 * * cd /path/to/GPU_Price_Over_Time && ./gpu.sh >> logs/cron.log 2>&1
 """
 
+from __future__ import annotations
 import sys
 import sqlite3
 import subprocess
+import os
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 ROOT   = Path(__file__).parent
-DB     = ROOT / "database" / "gpu_intel.db"
+DB     = Path(os.environ.get("GPU_DB_PATH", ROOT / "database" / "gpu_intel.db"))
 LOGS   = ROOT / "logs"
 LOGS.mkdir(exist_ok=True)
 
@@ -27,11 +29,14 @@ LOGS.mkdir(exist_ok=True)
 STALE_AFTER_DAYS = 2.0   # Matches market volatility (changes every 2-3 days)
 
 
-def data_age() -> float | None:
+from typing import Union
+
+def data_age() -> Union[float, None]:
     """Return age of most recent DB record in days, or None if DB is empty."""
     if not DB.exists():
         return None
-    conn = sqlite3.connect(DB)
+    conn = sqlite3.connect(DB, timeout=30)
+    conn.execute("PRAGMA journal_mode=WAL")
     row = conn.execute("SELECT MAX(timestamp) FROM prices").fetchone()
     conn.close()
     if not row or not row[0]:
@@ -83,7 +88,7 @@ def main():
     print("\n  Starting intelligence pipeline...\n")
 
     steps = [
-        ("Full Intelligence Pipeline", ["python", "engine/scraper.py"]),
+        ("Full Intelligence Pipeline", [sys.executable, "engine/scraper.py"]),
     ]
 
     for label, cmd in steps:

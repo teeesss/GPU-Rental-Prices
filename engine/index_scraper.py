@@ -2,12 +2,13 @@ import asyncio
 import logging
 import sqlite3
 import re
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from stealth_navigator import StealthNavigator
 
 ROOT = Path(__file__).parent.parent
-DB_PATH = ROOT / "database" / "gpu_intel.db"
+DB_PATH = Path(os.environ.get("GPU_DB_PATH", ROOT / "database" / "gpu_intel.db"))
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("index_scraper")
@@ -25,7 +26,8 @@ class IndexScraper:
         self._init_db()
 
     def _init_db(self):
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(DB_PATH, timeout=30)
+        conn.execute("PRAGMA journal_mode=WAL")
         conn.execute("""
             CREATE TABLE IF NOT EXISTS prices (
                 timestamp    TEXT,
@@ -40,7 +42,8 @@ class IndexScraper:
         conn.close()
 
     def save(self, gpu, provider, price, source, category):
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(DB_PATH, timeout=30)
+        conn.execute("PRAGMA journal_mode=WAL")
         conn.execute(
             "INSERT INTO prices VALUES (?,?,?,?,?,?)",
             (self.batch_ts, gpu, provider, price, source, category)
@@ -57,13 +60,21 @@ async def scrape_indices(nav, intel):
             await nav.ghost_browse(page, url)
             await asyncio.sleep(5)
             
-            # Attempt to bypass gate
+            # Attempt to bypass gate (Email Wall)
             try:
-                unlock_btn = await page.query_selector("button:has-text('Unlock'), button:has-text('Got it')")
+                # Check for email input
+                email_input = await page.query_selector("input[type='email'], input[placeholder*='email']")
+                if email_input:
+                    log.info("Email wall detected. Entering placeholder email...")
+                    await email_input.fill("research@neocloud.io")
+                    await asyncio.sleep(1)
+                    
+                unlock_btn = await page.query_selector("button:has-text('Unlock'), button:has-text('Pricing'), button:has-text('Got it')")
                 if unlock_btn:
                     await unlock_btn.click()
-                    await asyncio.sleep(2)
-            except:
+                    await asyncio.sleep(3) # Wait for content to reveal
+            except Exception as e:
+                log.debug(f"Bypass attempt failed (expected if no wall): {e}")
                 pass
                 
             await page.wait_for_load_state("networkidle", timeout=15000)

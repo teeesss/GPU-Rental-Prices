@@ -4,6 +4,25 @@
 - [ ] Add more sources (SiliconData portal, etc.) <!-- id: 7 -->
 
 ## Completed
+- [x] **V4.2.31: YTD Column Integration**
+    - [x] Added YTD price change column to Market Intelligence table
+    - [x] Calculated YTD (from January 1st of the current year) on the backend using SQLite historical average logic
+    - [x] Updated web/index.html grid layout and widened main sidebar by 50px (from 340px to 390px) to move chart leftwards
+    - [x] Updated index_graph.html layout and widened sidebar similarly
+    - [x] Aligned headers color to #ccc and centered RANGE header
+    - [x] Verified full pipeline health and smoke test validation
+- [x] **V4.2.29: Mobile Grid & Responsive Sync Indicators**
+    - [x] Separated timestamp dates and elapsed times in dashboard cards
+    - [x] Engineered responsive hides for elapsed suffixes (`just now`, `1h ago`) on narrow viewports to prevent layout overflow
+    - [x] Upgraded mobile stat-card styling to use a premium, structured top-border design instead of squished side-borders
+    - [x] Fully automated local WSL Playwright browser pipeline fixes and verified 100% smoke test pass rate
+    - [x] Synchronized and deployed latest changes to production environment
+- [x] **V4.2.28: Outlier Shield & UI Calibration**
+    - [x] Implemented median-based pricing outlier detection (filters out prices deviating >35% from the median when sample size >= 3)
+    - [x] Correctly discarded Nebius H200 outlier at $1.45 (58% deviation from $3.45 median)
+    - [x] Added batch price timestamps to top stats cards and global header
+    - [x] Renamed "Historical Index (Avg)" to "Weighted Price Index" to prevent cognitive dissonance
+    - [x] Changed table column header "AVG" to "W. AVG" for perfect conceptual alignment
 - [x] **V4.2.25: Color-Synchronized Interface**
     - [x] Color-coded GPU filters to match chart palettes
     - [x] Preserved Green Highlight for active filter states
@@ -69,3 +88,11 @@
 - [x] Improved UI: Increased top stat card font sizes and constrained sidebar table height <!-- id: 17 -->
 - [x] Smoothed Trends: Implemented 5-day Moving Average (SMA) for all price series to eliminate erratic swings <!-- id: 18 -->
 - [x] Void Reduction: Optimized logarithmic Y-axis baseline to expand lower-priced GPU trends <!-- id: 19 -->
+- [x] Fixed `FileNotFoundError`: Switched hardcoded `python` to `sys.executable` in pulse runner for cron reliability <!-- id: 20 -->
+- [x] Fixed `database is locked`: Enabled WAL mode and increased busy timeout (30s) for high-concurrency SQLite access on network mounts <!-- id: 21 -->
+- [x] Hardened Locking: Migrated DB to native Linux filesystem (`~/gpu_intel.db`) to bypass broken network mount locking <!-- id: 22 -->
+- [x] ComputePulse Bypass: Implemented email wall automation for institutional indices <!-- id: 23 -->
+- [x] Resolved playwright_stealth ImportError and aligned venv fallback reuse mechanism with ticker.sh <!-- id: 24 -->
+- [x] Add 1-week price change column (1W) to Market Intelligence and change "W. AVG" to "AVG" <!-- id: 25 -->
+
+

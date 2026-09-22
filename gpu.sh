@@ -17,6 +17,13 @@ echo "============================================================"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$DIR"
 
+# Load Environment Variables (.env Portability)
+if [ -f ".env" ]; then
+    set -a
+    . .env
+    set +a
+fi
+
 # ── 1. Python check ──────────────────────────────────────────────────────────
 if ! command -v python3 &> /dev/null; then
     echo "[!] Python3 not found. Install python3 and retry."
@@ -39,7 +46,8 @@ fi
 VENV_PATH="./venv"
 VENV_FALLBACK="$HOME/.venv_gpu_intel"
 
-if ! "$VENV_PATH/bin/python" --version &>/dev/null 2>&1; then
+# Check if current venv is missing or non-functional (catches broken mount symlinks)
+if ! "$VENV_PATH/bin/python" --version &>/dev/null 2>&1 && ! "$VENV_FALLBACK/bin/python" --version &>/dev/null 2>&1; then
     echo "[*] Creating virtual environment..."
     if ! python3 -m venv "$VENV_PATH" 2>/dev/null; then
         echo "[!] Failed to create venv here (mount issue?). Trying $VENV_FALLBACK..."
@@ -53,12 +61,14 @@ fi
 VENV_PYTHON="$VENV_PATH/bin/python"
 if ! "$VENV_PYTHON" --version &>/dev/null 2>&1; then
     if "$VENV_FALLBACK/bin/python" --version &>/dev/null 2>&1; then
-        VENV_PYTHON="$VENV_FALLBACK/bin/python"
+        VENV_PATH="$VENV_FALLBACK"
+        VENV_PYTHON="$VENV_PATH/bin/python"
     else
         echo "[!] Could not find a working venv python. Exiting."
         exit 1
     fi
 fi
+
 
 # ── 3. Dependencies ──────────────────────────────────────────────────────────
 if [ -f "requirements.txt" ]; then
@@ -79,6 +89,10 @@ fi
 # ── 4. Run pulse ─────────────────────────────────────────────────────────────
 mkdir -p "$DIR/logs"
 LOG="$DIR/logs/gpu_pulse.log"
+
+# Fix for "database is locked" on network mounts: Scrape to local filesystem temp DB
+export GPU_DB_PATH="$HOME/gpu_intel_temp.db"
+
 
 echo "[*] Running GPU pulse pipeline..."
 "$VENV_PYTHON" gpu_pulse.py "$@" 2>&1 | tee -a "$LOG"

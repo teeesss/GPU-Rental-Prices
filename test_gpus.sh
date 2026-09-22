@@ -9,11 +9,19 @@ set -e
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$DIR"
 
+# Load Environment Variables (.env Portability)
+if [ -f ".env" ]; then
+    set -a
+    . .env
+    set +a
+fi
+
 # ── 1. Venv & Dependencies Setup ───────────────────────────────────────────────
 VENV_PATH="./venv"
 VENV_FALLBACK="$HOME/.venv_gpu_intel"
 
-if ! "$VENV_PATH/bin/python" --version &>/dev/null 2>&1; then
+# Check if current venv is missing or non-functional (catches broken mount symlinks)
+if ! "$VENV_PATH/bin/python" --version &>/dev/null 2>&1 && ! "$VENV_FALLBACK/bin/python" --version &>/dev/null 2>&1; then
     echo "[*] Creating virtual environment for tests..."
     if ! python3 -m venv "$VENV_PATH" 2>/dev/null; then
         echo "[!] Failed to create venv here (mount issue?). Trying $VENV_FALLBACK..."
@@ -23,15 +31,18 @@ if ! "$VENV_PATH/bin/python" --version &>/dev/null 2>&1; then
     fi
 fi
 
+# Resolve final python path
 VENV_PYTHON="$VENV_PATH/bin/python"
 if ! "$VENV_PYTHON" --version &>/dev/null 2>&1; then
     if "$VENV_FALLBACK/bin/python" --version &>/dev/null 2>&1; then
-        VENV_PYTHON="$VENV_FALLBACK/bin/python"
+        VENV_PATH="$VENV_FALLBACK"
+        VENV_PYTHON="$VENV_PATH/bin/python"
     else
         echo "[!] Could not find a working venv python. Exiting."
         exit 1
     fi
 fi
+
 
 if [ -f "requirements.txt" ]; then
     echo "[*] Checking dependencies..."

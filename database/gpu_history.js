@@ -7201,74 +7201,13474 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.67,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.74,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 3.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.07,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-17T22:44:20.276783+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.41,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.01,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.71,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.71,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.91,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.91,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.69,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 3.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 1.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.69,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 3.4,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 2.9,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 1.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-25T11:00:03.066135+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 1.25,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.84,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.53,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.53,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.41,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.41,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.86,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.69,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 3.4,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 2.9,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 1.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-27T11:00:02.746271+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 1.25,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.55,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.74,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.04,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.34,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.34,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 9.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.16,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.09,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.36,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.05,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.67,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 3.4,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 2.9,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 1.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T00:11:39.417947+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 1.25,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.54,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.17,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.11,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 23.36,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.43,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.43,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 9.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.2,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.17,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.36,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.67,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 3.4,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 2.9,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 1.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-29T11:00:08.221501+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 1.25,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.18,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.54,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.54,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.47,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.47,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 7.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.21,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.69,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 3.4,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 2.9,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 1.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-05-31T11:00:09.295156+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 1.25,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.47,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.33,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.21,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.57,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.57,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.54,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.54,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 7.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.38,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.57,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.52,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.69,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:08.735254+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.41,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.04,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.69,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-03T11:00:03.512664+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.52,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.33,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.17,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.31,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.64,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.01,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.71,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-05T11:00:09.152967+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.36,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.42,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.13,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.72,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.61,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-07T11:00:04.065541+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.36,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.9,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.65,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.65,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.22,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 4.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.64,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-09T11:00:04.022821+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.26,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.31,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.04,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.56,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 21.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.52,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.98,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.55,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.57,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-11T11:00:02.602418+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.26,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.1,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.56,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 21.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.04,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.45,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.39,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.84,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.56,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-13T11:00:08.163300+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.95,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.56,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.98,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.29,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.38,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-15T11:00:05.195787+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.24,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.92,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.56,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.44,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.04,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.21,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T11:00:08.404899+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.26,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.56,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.44,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.04,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.17,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.31,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-17T23:31:44.043540+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.26,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.2,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.9,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.65,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.17,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.67,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.12,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-19T11:00:08.084096+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.06,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.48,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.99,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.85,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.1,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.26,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-21T11:00:02.879925+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.18,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.41,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.87,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.44,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.25,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.19,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.21,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-23T11:00:02.822697+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.17,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.34,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.05,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.1,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-25T11:00:09.751051+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.19,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.37,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 5.05,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.36,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.09,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-26T04:55:46.231797+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.31,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.92,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 4.73,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.65,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.65,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.29,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-27T11:00:02.719851+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.19,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.31,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.07,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 4.73,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.28,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-06-29T11:00:02.381350+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.16,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.17,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.63,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.96,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.27,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 5.45,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.06,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.29,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.51,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-01T11:00:03.774157+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.2,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.91,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.7,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-03T11:00:08.859835+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.75,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.51,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T11:00:04.320547+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.46,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.19,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.75,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.66,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.9,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.51,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-05T20:56:59.663457+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.88,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.92,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.67,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.93,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.93,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.95,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.5,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.79,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-07T11:00:03.521980+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.42,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.83,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.01,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.75,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.07,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.07,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.56,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.5,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-09T11:00:06.601977+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.37,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.72,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.81,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.76,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.76,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.07,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.07,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.03,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-11T11:00:08.995710+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.19,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.73,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.73,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-13T11:00:03.136691+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.73,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.0,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.66,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-15T11:00:02.956748+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.36,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.74,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.26,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 20.14,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 7.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.86,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-17T11:00:05.498169+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.76,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.36,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 21.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.28,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.01,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-19T11:00:03.499497+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.99,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.71,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.22,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.56,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-21T11:00:08.790706+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.55,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.69,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.8,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.81,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 27.04,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.32,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.49,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.56,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-23T11:00:09.793276+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.61,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.74,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.8,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.41,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 21.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.3,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.2,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.55,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-25T11:00:03.025607+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.73,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.72,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.0,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.41,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.3,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.18,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.18,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.94,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.12,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.92,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.77,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.55,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-27T11:00:13.754980+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.78,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 5.98,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.33,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.3,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-29T11:00:03.130272+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.61,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.13,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.3,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-07-31T11:00:10.058532+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.49,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.08,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.3,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-01T11:00:15.269707+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.19,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.34,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.79,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.99,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-03T11:00:09.476123+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.66,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.18,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.34,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.79,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.31,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-05T11:00:03.836872+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.61,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.05,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.18,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.0,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 0.8,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-07T11:00:04.691006+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.59,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.71,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.06,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.18,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 15.63,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.66,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.33,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.68,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 7.5,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 1.2,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.53,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-09T11:00:03.151246+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.68,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.73,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.09,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 5.5,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.34,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.44,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 1.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 7.5,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-11T11:00:03.131311+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.63,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.74,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.12,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.02,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.6,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.62,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.88,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 5.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.99,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-13T11:00:02.452521+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.53,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.71,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.21,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.11,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.23,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.77,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 6.55,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.56,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.08,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.1,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 4.49,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.25,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.82,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.87,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.47,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.79,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.29,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.39,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 4.3,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 3.95,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 2.45,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-15T11:00:03.554615+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 2.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 8.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.91,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.79,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 7.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 7.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 4.5,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 3.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:11:39.451733+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.48,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.79,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.87,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.0,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.87,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "MI325X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.06,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "MI355X",
+      "provider": "GetDeploying",
+      "price_hourly": 8.04,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 8.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.91,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.79,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 7.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 7.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 4.5,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 3.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "H100",
       "provider": "Neocloud Pulse",
-      "price_hourly": 2.427777777777778,
+      "price_hourly": 2.9405555555555556,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "H200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 3.099285714285714,
+      "price_hourly": 3.1950000000000003,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "B200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 4.804285714285713,
+      "price_hourly": 6.531000000000001,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "B300",
       "provider": "Neocloud Pulse",
-      "price_hourly": 5.0520000000000005,
+      "price_hourly": 8.09,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "GB200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 11.355,
+      "price_hourly": 11.095,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "GH200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 3.185,
+      "price_hourly": 3.255,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "MI325X",
       "provider": "Neocloud Pulse",
-      "price_hourly": 2.2375,
+      "price_hourly": 2.7800000000000002,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "MI355X",
       "provider": "Neocloud Pulse",
-      "price_hourly": 4.8375,
+      "price_hourly": 8.04,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
+      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "A100",
       "provider": "Neocloud Pulse",
-      "price_hourly": 1.164,
+      "price_hourly": 1.6600000000000001,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     }

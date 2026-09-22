@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neocloud Intel | GPU Rental Index V4.2.1</title>
+    <title>Neocloud Intel | GPU Rental Index V4.2.27</title>
     <meta name="description" content="Verified GPU rental price index tracking H100, H200, B200, GH200 and AMD MI325X/MI355X across Neocloud providers.">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
@@ -60,6 +60,22 @@
         .header-meta a { color: var(--accent); text-decoration: none; font-weight: 700; border-bottom: 1px solid transparent; transition: all 0.2s; }
         .header-meta a:hover { border-color: var(--accent); }
 
+        .sync-badge {
+            background: rgba(118,185,0,0.06);
+            border: 1px solid rgba(118,185,0,0.3);
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 9999px;
+            font-family: var(--mono);
+            font-size: 9px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 0 10px rgba(118,185,0,0.03);
+            text-transform: uppercase;
+        }
+
         .live-dot { width: 5px; height: 5px; background: var(--accent); border-radius: 50%; display: inline-block; box-shadow: 0 0 8px var(--accent); animation: pulse 2s infinite; }
         @keyframes pulse { 0%,100%{opacity:1; transform:scale(1);} 50%{opacity:.4; transform:scale(0.8);} }
 
@@ -83,11 +99,20 @@
         .stat-card .label { font-family: var(--mono); font-size: 27px !important; color: var(--card-color, var(--accent)); text-transform: uppercase; margin-bottom: 4px; display: block; font-weight: 700; }
         .stat-card .value { font-size: 34px; font-weight: 800; color: #fff; line-height: 1; display: block; letter-spacing: -1px; white-space: nowrap; }
         .stat-card .meta { font-size: 10px; color: var(--text-mid); margin-top: 6px; display: block; line-height: 1.4; }
+        .stat-card .card-elapsed {
+            opacity: 0.65;
+            font-size: 8px;
+            font-family: var(--mono);
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .stat-card .card-elapsed { display: none; }
+        }
 
         /* ── Layout ── */
         .main-grid {
             display: grid;
-            grid-template-columns: 1fr 340px;
+            grid-template-columns: 1fr 390px;
             gap: 16px;
             min-height: calc(100vh - 120px);
         }
@@ -190,7 +215,7 @@
         @media (max-width: 1100px) and (min-width: 769px) {
             .stat-card .label { font-size: 18px !important; }
             .stat-card .value { font-size: 24px !important; }
-            .main-grid { grid-template-columns: 1fr 280px; }
+            .main-grid { grid-template-columns: 1fr 330px; }
         }
 
         /* ── Mobile Optimization (Max 768px) ── */
@@ -222,16 +247,20 @@
             }
             
             .stat-card {
-                background: none;
-                border: none;
-                border-left: 1px solid var(--glass-border);
-                padding: 2px;
-                min-height: 30px;
+                background: rgba(255,255,255,0.02);
+                border: 1px solid rgba(255,255,255,0.05);
+                border-top: 3px solid var(--card-color, var(--accent));
+                padding: 4px 2px;
+                border-radius: 3px;
                 text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                min-height: 48px;
             }
             .stat-card::before { display: none; }
-            .stat-card .label { font-size: 10px !important; letter-spacing: 0; }
-            .stat-card .value { font-size: 14px; font-weight: 700; letter-spacing: -0.5px; }
+            .stat-card .label { font-size: 9px !important; letter-spacing: -0.2px; margin-bottom: 2px; line-height: 1.1; }
+            .stat-card .value { font-size: 11.5px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.1; }
             .stat-card .meta { display: none; }
 
             .main-grid {
@@ -271,11 +300,12 @@
         }
         .market-row { 
             display: grid; 
-            grid-template-columns: 1.2fr 1fr 1fr 1fr 1.5fr; 
+            grid-template-columns: 1.2fr 1fr 0.8fr 0.8fr 0.8fr 0.8fr 1.6fr; 
             align-items: center; 
             padding: 8px 0; 
             border-bottom: 1px solid rgba(255,255,255,0.02); 
         }
+
     </style>
 </head>
 <body>
@@ -286,9 +316,11 @@
             <span>GPU Rental Price Index</span>
         </div>
         <div class="header-meta">
-            <span><span class="live-dot"></span>Live</span>
-            <span id="sync-status">Ready</span>
-            <span id="record-count"></span>
+            <div class="sync-badge">
+                <span class="live-dot"></span>
+                <span id="sync-status">Ready</span>
+            </div>
+            <span id="record-count" style="font-family: var(--mono); font-size: 9px; color: var(--text-mid);"></span>
             <a href="database/gpu_intel.js" target="_blank">RAW_DATA_NODE</a>
         </div>
     </header>
@@ -311,7 +343,7 @@
                 <span class="box-title">Market Intelligence</span>
             </div>
             <div class="sidebar-scroll">
-                <div class="section-header">Historical Index (Avg)</div>
+                <div class="section-header">Weighted Price Index</div>
                 <div id="market-stats"></div>
             </div>
         </div>
@@ -334,21 +366,62 @@
 
             summaryScript.onload = () => {
                 const data = window.GPU_INTEL;
-                syncStatus.textContent = 'Live • ' + new Date().toLocaleTimeString();
+                let priceDateStr = 'Recent';
+                let priceDateTimeStr = '';
+                let elapsedStr = '';
+                try {
+                    const ts = data.last_updated || ((data.latest && data.latest[0]) ? data.latest[0].timestamp : null);
+                    if (ts) {
+                        const d = new Date(ts);
+                        const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                        
+                        let hours = d.getHours();
+                        const ampm = hours >= 12 ? 'PM' : 'AM';
+                        hours = hours % 12;
+                        hours = hours ? hours : 12;
+                        const minutes = d.getMinutes().toString().padStart(2, '0');
+                        
+                        const localTimeStr = `${months[d.getMonth()]} ${d.getDate()}, ${hours}:${minutes} ${ampm}`;
+                        const utcTimeStr = `${d.getUTCFullYear()}-${(d.getUTCMonth()+1).toString().padStart(2,'0')}-${d.getUTCDate().toString().padStart(2,'0')} ${d.getUTCHours().toString().padStart(2,'0')}:${d.getUTCMinutes().toString().padStart(2,'0')} UTC`;
+                        
+                        priceDateTimeStr = `${localTimeStr} (Local) | ${utcTimeStr}`;
+                        
+                        const elapsedMins = Math.round((Date.now() - d.getTime()) / 60000);
+                        if (elapsedMins < 1) elapsedStr = 'just now';
+                        else if (elapsedMins < 60) elapsedStr = `${elapsedMins}m ago`;
+                        else {
+                            const elapsedHrs = Math.floor(elapsedMins / 60);
+                            elapsedStr = `${elapsedHrs}h ago`;
+                        }
+                        priceDateStr = `${months[d.getMonth()]} ${d.getDate()}`;
+                    }
+                } catch (err) {
+                    console.error("Date formatting failed", err);
+                }
+                
+                syncStatus.textContent = priceDateTimeStr ? `LAST SYNC: ${priceDateTimeStr}` : 'Live • Syncing...';
                 
                 const models = ['H100','H200','GB200','B200','GH200','MI355X','MI325X','B300','A100'];
                 const get = (m) => data.stats.find(s => s.gpu === m);
-
+ 
                 document.getElementById('top-stats').innerHTML = models.map(m => {
                     const s = get(m);
                     if (!s) return '';
+                    
+                    let breakdownStr = '';
+                    if (s.inst_price !== null && s.inst_price !== undefined) {
+                        breakdownStr = `Inst: $${s.inst_price.toFixed(2)} | Spot: $${s.market_price.toFixed(2)}`;
+                    } else {
+                        breakdownStr = `Spot: $${s.market_price.toFixed(2)} (No Inst)`;
+                    }
+ 
                     return `
-                        <div class="stat-card" style="--card-color: ${colors[m]}">
-                            <span class="label">${m}</span>
+                        <div class="stat-card" style="--card-color: ${colors[m]}" title="Sync Time: ${priceDateTimeStr}">
+                            <span class="label">${m}<span style="font-size: 8px; opacity: 0.65; font-weight: 500; display: block; margin-top: 2px; font-family: var(--mono); letter-spacing: 0px; text-transform: none;"><span class="card-date">${priceDateStr}</span><span class="card-elapsed"> (${elapsedStr})</span></span></span>
                             <span class="value">$${s.avg_price.toFixed(2)}</span>
                             <span class="meta">
-                                ${s.source_count} Sources<br/>
-                                <span style="opacity:0.6">W. Avg: 50% Index / 50% Live</span>
+                                <strong style="color: #fff">Weighted Index</strong><br/>
+                                <span style="opacity:0.75; font-size: 8.5px; font-family: var(--mono);">${breakdownStr}</span>
                             </span>
                         </div>
                     `;
@@ -398,32 +471,43 @@
             // Header Row with click handlers
             let html = `
                 <div class="market-row" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding: 4px 0; cursor: pointer;">
-                    <span onclick="toggleSort('gpu')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim);">${getIndicator('gpu')} MODEL</span>
-                    <span onclick="toggleSort('avg_price')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('avg_price')} AVG</span>
-                    <span onclick="toggleSort('chg_1m')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('chg_1m')} 1M</span>
-                    <span onclick="toggleSort('chg_1y')" style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: center;">${getIndicator('chg_1y')} 1Y</span>
-                    <span style="font-family: var(--mono); font-size: 8px; color: var(--text-dim); text-align: right;">RANGE</span>
+                    <span onclick="toggleSort('gpu')" style="font-family: var(--mono); font-size: 8px; color: #ccc;">${getIndicator('gpu')} MODEL</span>
+                    <span onclick="toggleSort('avg_price')" style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">${getIndicator('avg_price')} AVG</span>
+                    <span onclick="toggleSort('chg_1w')" style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">${getIndicator('chg_1w')} 1W</span>
+                    <span onclick="toggleSort('chg_1m')" style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">${getIndicator('chg_1m')} 1M</span>
+                    <span onclick="toggleSort('chg_ytd')" style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">${getIndicator('chg_ytd')} YTD</span>
+                    <span onclick="toggleSort('chg_1y')" style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">${getIndicator('chg_1y')} 1Y</span>
+                    <span style="font-family: var(--mono); font-size: 8px; color: #ccc; text-align: center;">RANGE</span>
                 </div>
             `;
             
             html += sorted.map(s => {
+                const chg1w = s.chg_1w || 0;
                 const chg1m = s.chg_1m || 0;
+                const chgytd = s.chg_ytd || 0;
                 const chg1y = s.chg_1y || 0;
+                const c1wColor = chg1w > 0 ? '#4ade80' : (chg1w < 0 ? '#f43f5e' : 'var(--text-dim)');
                 const c1mColor = chg1m > 0 ? '#4ade80' : (chg1m < 0 ? '#f43f5e' : 'var(--text-dim)');
+                const cytdColor = chgytd > 0 ? '#4ade80' : (chgytd < 0 ? '#f43f5e' : 'var(--text-dim)');
                 const c1yColor = chg1y > 0 ? '#4ade80' : (chg1y < 0 ? '#f43f5e' : 'var(--text-dim)');
-                const s1m = chg1m > 0 ? '+' : '';
-                const s1y = chg1y > 0 ? '+' : '';
+                const s1w = Math.abs(chg1w).toFixed(1) + '%';
+                const s1m = Math.abs(chg1m).toFixed(1) + '%';
+                const sytd = Math.abs(chgytd).toFixed(1) + '%';
+                const s1y = Math.abs(chg1y).toFixed(1) + '%';
                 
                 return `
                     <div class="market-row">
                         <span style="font-family: var(--mono); font-size: 11px; color: ${colors[s.gpu]}">${s.gpu}</span>
                         <span style="font-family: var(--mono); font-size: 11px; font-weight: 700; color: #fff; text-align: center;">$${s.avg_price.toFixed(2)}</span>
-                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1mColor}; text-align: center;">${s1m}${chg1m.toFixed(1)}%</span>
-                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1yColor}; text-align: center;">${s1y}${chg1y.toFixed(1)}%</span>
-                        <span style="font-family: var(--mono); font-size: 10px; color: var(--text-dim); text-align: right;">$${s.min_price.toFixed(2)}-$${s.max_price.toFixed(2)}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1wColor}; text-align: center;">${s1w}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1mColor}; text-align: center;">${s1m}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${cytdColor}; text-align: center;">${sytd}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; font-weight: 700; color: ${c1yColor}; text-align: center;">${s1y}</span>
+                        <span style="font-family: var(--mono); font-size: 10px; color: #ccc; text-align: right;">$${s.min_price.toFixed(2)}-$${s.max_price.toFixed(2)}</span>
                     </div>
                 `;
             }).join('');
+
             
             container.innerHTML = html;
         }
