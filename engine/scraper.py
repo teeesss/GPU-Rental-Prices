@@ -30,9 +30,9 @@ log = logging.getLogger("gpu_scraper")
 
 # ── Hardcoded fallback benchmarks (updated quarterly) ──────────────────────────
 VERIFIED_BENCHMARKS = {
-    "Institutional Ref": {"H100": 2.55, "H200": 3.10, "B200": 5.10, "GB200": 4.50, "GH200": 3.20, "A100": 1.25, "B300": 5.50, "MI325X": 2.25, "MI355X": 4.50},
-    "Neo-Cloud Ref":    {"H100": 3.15, "H200": 3.95, "B200": 5.50, "GB200": 5.00, "GH200": 3.10, "A100": 1.45, "B300": 5.90, "MI325X": 2.50, "MI355X": 5.45},
-    "Marketplace Ref":  {"H100": 1.85, "H200": 2.95, "B200": 3.90, "GB200": 4.25, "GH200": 2.85, "A100": 0.75, "B300": 4.50, "MI325X": 1.95, "MI355X": 3.95},
+    "Institutional Ref": {"H100": 2.55, "H200": 3.10, "B200": 5.10, "GB200": 17.50, "GH200": 3.20, "A100": 1.25, "B300": 5.50, "MI300X": 2.50},
+    "Neo-Cloud Ref":    {"H100": 3.15, "H200": 3.95, "B200": 5.50, "GB200": 18.20, "GH200": 3.10, "A100": 1.45, "B300": 5.90, "MI300X": 2.85},
+    "Marketplace Ref":  {"H100": 1.85, "H200": 2.95, "B200": 3.90, "GB200": 16.50, "GH200": 2.85, "A100": 0.75, "B300": 4.50, "MI300X": 2.40},
 }
 
 # ── GetDeploying GPU slugs to scrape ────────────────────────────────────────────
@@ -43,8 +43,7 @@ GETDEPLOYING_TARGETS = [
     ("https://getdeploying.com/gpus/nvidia-b300",  "B300"),
     ("https://getdeploying.com/gpus/nvidia-gb200", "GB200"),
     ("https://getdeploying.com/gpus/nvidia-gh200", "GH200"),
-    ("https://getdeploying.com/gpus/amd-mi325x",   "MI325X"),
-    ("https://getdeploying.com/gpus/amd-mi355x",   "MI355X"),
+    ("https://getdeploying.com/gpus/amd-mi300x",   "MI300X"),
 ]
 
 

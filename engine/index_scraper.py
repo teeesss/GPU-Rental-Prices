@@ -91,7 +91,7 @@ async def scrape_indices(nav, intel):
                 return float(m.group(1)) if m else None
 
             # Fallback to known recent values if scrape failed to find indices
-            FALLBACKS = {"H100": 2.56, "H200": 3.08, "B200": 5.10, "GB200": 4.49, "A100": 1.24}
+            FALLBACKS = {"H100": 2.56, "H200": 3.08, "B200": 5.10, "GB200": 17.50, "A100": 1.24}
             
             # Check for Hopper
             if gpu_family == "Hopper":
@@ -106,8 +106,14 @@ async def scrape_indices(nav, intel):
                 p = find_price("B200", text) or FALLBACKS["B200"]
                 intel.save("B200", "Institutional Index", p, "computepulse.net", "Institutional Index")
 
-                p = find_price("GB200", text) or FALLBACKS["GB200"]
-                intel.save("GB200", "Institutional Index", p, "computepulse.net", "Institutional Index")
+                # Ensure GB200 is not erroneously assigned B200's $6.19 single-GPU price
+                gb_match = re.search(r'GB200(?:[\s\S]{0,80}?)\$(\d+\.\d+)', text, re.IGNORECASE)
+                gb_price = float(gb_match.group(1)) if gb_match else None
+                # Valid GB200 institutional tier is typically > $12/hr; if lower it picked up B200
+                if gb_price and gb_price >= 12.0:
+                    intel.save("GB200", "Institutional Index", gb_price, "computepulse.net", "Institutional Index")
+                else:
+                    intel.save("GB200", "Institutional Index", FALLBACKS["GB200"], "computepulse.net", "Institutional Index")
 
             # Always ensure A100 is anchored
             if not any(r['gpu'] == 'A100' for r in [x for x in []]): # placeholder

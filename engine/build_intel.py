@@ -58,7 +58,7 @@ def build():
     c = conn.cursor()
     
     # 0. Filter Whitelist
-    TARGET_GPUS = ["H100", "H200", "B200", "GB200", "B300", "GH200", "MI325X", "MI355X", "A100"]
+    TARGET_GPUS = ["H100", "H200", "B200", "GB200", "B300", "GH200", "MI300X", "A100"]
 
     # 1. Full History
     c.execute("SELECT * FROM prices ORDER BY timestamp ASC")
@@ -80,7 +80,8 @@ def build():
         url = "N/A"
         if r['provider'] == 'GetDeploying':
             gpu_slug = r['gpu'].lower().replace(" ", "-")
-            url = f"https://getdeploying.com/gpus/nvidia-{gpu_slug}"
+            vendor = "amd" if "mi3" in gpu_slug else "nvidia"
+            url = f"https://getdeploying.com/gpus/{vendor}-{gpu_slug}"
         elif r['category'] == 'Institutional Index':
             url = f"https://www.computepulse.net/{r['gpu'].lower()}"
         

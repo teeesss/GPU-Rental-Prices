@@ -64,7 +64,7 @@
         /* ── Data Grid ── */
         .stat-bar {
             display: grid;
-            grid-template-columns: repeat(9, 1fr);
+            grid-template-columns: repeat(8, 1fr);
             gap: 8px;
             margin-bottom: 16px;
         }
@@ -224,8 +224,8 @@
     <script>
         const colors = {
             'H100': '#76b900', 'H200': '#00a3e0', 'GB200': '#c084fc',
-            'B200': '#fb923c', 'GH200': '#2dd4bf', 'MI355X': '#f43f5e',
-            'MI325X': '#facc15', 'B300': '#4ade80', 'A100': '#94a3b8'
+            'B200': '#fb923c', 'GH200': '#2dd4bf', 'MI300X': '#ff4757',
+            'B300': '#4ade80', 'A100': '#94a3b8'
         };
 
         async function init() {
@@ -261,7 +261,7 @@
                 
                 syncStatus.textContent = priceDateTimeStr ? `As of ${priceDateTimeStr}` : 'Live • ' + new Date().toLocaleTimeString();
                 
-                const models = ['H100','H200','GB200','B200','GH200','MI355X','MI325X','B300','A100'];
+                const models = ['H100','H200','GB200','B200','GH200','MI300X','B300','A100'];
                 const get = (m) => data.stats.find(s => s.gpu === m);
 
                 document.getElementById('top-stats').innerHTML = models.map(m => {

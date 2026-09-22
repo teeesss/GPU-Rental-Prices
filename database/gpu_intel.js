@@ -1,43 +1,43 @@
 window.GPU_INTEL = {
   "latest": [
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
-      "price_hourly": 3.39,
+      "price_hourly": 3.38,
       "source": "getdeploying.com",
       "category": "Market Index",
       "source_url": "https://getdeploying.com/gpus/nvidia-h100"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "GetDeploying",
-      "price_hourly": 4.48,
+      "price_hourly": 4.46,
       "source": "getdeploying.com",
       "category": "Market Index",
       "source_url": "https://getdeploying.com/gpus/nvidia-h200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "GetDeploying",
-      "price_hourly": 6.79,
+      "price_hourly": 6.7,
       "source": "getdeploying.com",
       "category": "Market Index",
       "source_url": "https://getdeploying.com/gpus/nvidia-b200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "GetDeploying",
-      "price_hourly": 7.87,
+      "price_hourly": 7.85,
       "source": "getdeploying.com",
       "category": "Market Index",
       "source_url": "https://getdeploying.com/gpus/nvidia-b300"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "GB200",
       "provider": "GetDeploying",
       "price_hourly": 16.0,
@@ -46,7 +46,7 @@ window.GPU_INTEL = {
       "source_url": "https://getdeploying.com/gpus/nvidia-gb200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "GH200",
       "provider": "GetDeploying",
       "price_hourly": 3.87,
@@ -55,25 +55,16 @@ window.GPU_INTEL = {
       "source_url": "https://getdeploying.com/gpus/nvidia-gh200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI325X",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "MI300X",
       "provider": "GetDeploying",
-      "price_hourly": 3.06,
+      "price_hourly": 2.99,
       "source": "getdeploying.com",
       "category": "Market Index",
-      "source_url": "https://getdeploying.com/gpus/nvidia-mi325x"
+      "source_url": "https://getdeploying.com/gpus/amd-mi300x"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.04,
-      "source": "getdeploying.com",
-      "category": "Market Index",
-      "source_url": "https://getdeploying.com/gpus/nvidia-mi355x"
-    },
-    {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.79,
@@ -82,7 +73,7 @@ window.GPU_INTEL = {
       "source_url": "https://www.computepulse.net/h100"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Institutional Index",
       "price_hourly": 2.79,
@@ -91,7 +82,7 @@ window.GPU_INTEL = {
       "source_url": "https://www.computepulse.net/h200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "Institutional Index",
       "price_hourly": 2.7,
@@ -100,7 +91,7 @@ window.GPU_INTEL = {
       "source_url": "https://www.computepulse.net/a100"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "Institutional Index",
       "price_hourly": 6.19,
@@ -109,16 +100,16 @@ window.GPU_INTEL = {
       "source_url": "https://www.computepulse.net/b200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index",
       "source_url": "https://www.computepulse.net/gb200"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "Institutional Index",
       "price_hourly": 1.24,
@@ -127,7 +118,7 @@ window.GPU_INTEL = {
       "source_url": "https://www.computepulse.net/a100"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "Vast.ai",
       "price_hourly": 8.75,
@@ -136,7 +127,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Vast.ai",
       "price_hourly": 1.73,
@@ -145,7 +136,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Vast.ai",
       "price_hourly": 2.6,
@@ -154,7 +145,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "Vast.ai",
       "price_hourly": 8.13,
@@ -163,7 +154,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Vast.ai",
       "price_hourly": 2.4,
@@ -172,7 +163,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Vast.ai",
       "price_hourly": 2.63,
@@ -181,7 +172,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Vast.ai",
       "price_hourly": 2.91,
@@ -190,7 +181,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "Vast.ai",
       "price_hourly": 0.27,
@@ -199,7 +190,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "Vast.ai",
       "price_hourly": 0.27,
@@ -208,7 +199,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "RunPod",
       "price_hourly": 7.89,
@@ -217,7 +208,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "RunPod",
       "price_hourly": 4.59,
@@ -226,7 +217,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "RunPod",
       "price_hourly": 6.79,
@@ -235,7 +226,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "RunPod",
       "price_hourly": 3.19,
@@ -244,7 +235,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "RunPod",
       "price_hourly": 2.89,
@@ -253,7 +244,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "RunPod",
       "price_hourly": 3.49,
@@ -262,7 +253,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "RunPod",
       "price_hourly": 1.59,
@@ -271,7 +262,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "RunPod",
       "price_hourly": 1.59,
@@ -280,7 +271,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "Nebius",
       "price_hourly": 7.85,
@@ -289,7 +280,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "Nebius",
       "price_hourly": 7.15,
@@ -298,7 +289,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Nebius",
       "price_hourly": 4.5,
@@ -307,7 +298,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Nebius",
       "price_hourly": 3.85,
@@ -316,7 +307,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "Nebius",
       "price_hourly": 0.99,
@@ -325,7 +316,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "Nebius",
       "price_hourly": 0.99,
@@ -334,7 +325,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Nebius",
       "price_hourly": 0.79,
@@ -343,7 +334,7 @@ window.GPU_INTEL = {
       "source_url": "N/A"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Nebius",
       "price_hourly": 0.79,
@@ -355,68 +346,68 @@ window.GPU_INTEL = {
   "stats": [
     {
       "gpu": "H100",
-      "avg_price": 2.9405555555555556,
+      "avg_price": 2.94,
       "inst_price": 2.79,
-      "market_price": 3.091111111111111,
+      "market_price": 3.09,
       "min_price": 2.4,
       "max_price": 3.85,
-      "chg_1w": 15.883962780514501,
-      "chg_1m": 15.883962780514501,
-      "chg_ytd": 46.29629629629631,
-      "chg_1y": 13.534963534963543,
+      "chg_1w": 6.073361395069156,
+      "chg_1m": 10.734463276836145,
+      "chg_ytd": 46.26865671641792,
+      "chg_1y": 13.513513513513518,
       "source_count": 10
     },
     {
       "gpu": "H200",
-      "avg_price": 3.1950000000000003,
+      "avg_price": 3.19375,
       "inst_price": 2.79,
-      "market_price": 3.6,
+      "market_price": 3.5975,
       "min_price": 2.6,
       "max_price": 4.59,
-      "chg_1w": -2.7101096224116916,
-      "chg_1m": -2.7101096224116916,
-      "chg_ytd": -10.8786610878661,
-      "chg_1y": -19.924812030075184,
+      "chg_1w": -6.842489061740381,
+      "chg_1m": -6.797178988326848,
+      "chg_ytd": -10.913528591352856,
+      "chg_1y": -19.956140350877195,
       "source_count": 9
     },
     {
       "gpu": "B200",
-      "avg_price": 6.531000000000001,
+      "avg_price": 6.522,
       "inst_price": 6.19,
-      "market_price": 6.872,
+      "market_price": 6.854000000000001,
       "min_price": 5.5,
       "max_price": 8.13,
-      "chg_1w": 25.95949855351979,
-      "chg_1m": 25.95949855351979,
-      "chg_ytd": 30.620000000000015,
-      "chg_1y": 17.253141831238782,
+      "chg_1w": 9.828795958461972,
+      "chg_1m": 19.05080620626711,
+      "chg_ytd": 30.440000000000005,
+      "chg_1y": 17.091561938958705,
       "source_count": 6
     },
     {
       "gpu": "B300",
-      "avg_price": 8.09,
+      "avg_price": 8.084999999999999,
       "inst_price": null,
-      "market_price": 8.09,
+      "market_price": 8.084999999999999,
       "min_price": 7.85,
       "max_price": 8.75,
-      "chg_1w": 31.812627291242357,
-      "chg_1m": 31.812627291242357,
-      "chg_ytd": 12.90997906489881,
-      "chg_1y": 3.057324840764334,
+      "chg_1w": 11.210453920220075,
+      "chg_1m": 18.086660175267756,
+      "chg_ytd": 12.840195394277726,
+      "chg_1y": 2.9936305732484003,
       "source_count": 4
     },
     {
       "gpu": "GB200",
-      "avg_price": 11.095,
-      "inst_price": 6.19,
-      "market_price": 16.0,
-      "min_price": 6.19,
-      "max_price": 16.0,
-      "chg_1w": -2.332746478873229,
-      "chg_1m": -2.332746478873229,
-      "chg_ytd": -44.511127781945476,
-      "chg_1y": -52.38197424892703,
-      "source_count": 2
+      "avg_price": 17.275,
+      "inst_price": 17.5,
+      "market_price": 17.05,
+      "min_price": 16.0,
+      "max_price": 18.2,
+      "chg_1w": 1.8873488646417005,
+      "chg_1m": -0.17336030049119408,
+      "chg_ytd": -13.60340085021255,
+      "chg_1y": -25.85836909871245,
+      "source_count": 5
     },
     {
       "gpu": "GH200",
@@ -425,37 +416,24 @@ window.GPU_INTEL = {
       "market_price": 3.255,
       "min_price": 2.85,
       "max_price": 3.87,
-      "chg_1w": -13.660477453580905,
-      "chg_1m": -13.660477453580905,
+      "chg_1w": -16.538461538461537,
+      "chg_1m": -14.566929133858272,
       "chg_ytd": -25.6,
       "chg_1y": -30.744680851063833,
       "source_count": 4
     },
     {
-      "gpu": "MI325X",
-      "avg_price": 2.7800000000000002,
+      "gpu": "MI300X",
+      "avg_price": 2.685,
       "inst_price": null,
-      "market_price": 2.7800000000000002,
-      "min_price": 2.5,
-      "max_price": 3.06,
-      "chg_1w": 16.806722689075645,
-      "chg_1m": 16.806722689075645,
-      "chg_ytd": 10.099009900990112,
-      "chg_1y": -3.47222222222221,
-      "source_count": 2
-    },
-    {
-      "gpu": "MI355X",
-      "avg_price": 8.04,
-      "inst_price": null,
-      "market_price": 8.04,
-      "min_price": 8.04,
-      "max_price": 8.04,
-      "chg_1w": 22.748091603053425,
-      "chg_1m": 22.748091603053425,
-      "chg_ytd": 19.465081723625538,
-      "chg_1y": 0.37453183520598454,
-      "source_count": 1
+      "market_price": 2.685,
+      "min_price": 2.4,
+      "max_price": 2.99,
+      "chg_1w": -4.787234042553185,
+      "chg_1m": -6.608695652173911,
+      "chg_ytd": -15.698587127158556,
+      "chg_1y": -15.433070866141726,
+      "source_count": 4
     },
     {
       "gpu": "A100",
@@ -464,12 +442,12 @@ window.GPU_INTEL = {
       "market_price": 1.35,
       "min_price": 1.25,
       "max_price": 1.9700000000000002,
-      "chg_1w": 52.99539170506914,
-      "chg_1m": 52.99539170506914,
+      "chg_1w": 40.97664543524417,
+      "chg_1m": 46.255506607929526,
       "chg_ytd": 46.255506607929526,
       "chg_1y": -8.287292817679553,
       "source_count": 3
     }
   ],
-  "last_updated": "2026-09-22T10:30:17.253049"
+  "last_updated": "2026-09-22T10:47:55.127329"
 };

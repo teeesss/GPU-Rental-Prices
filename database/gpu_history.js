@@ -50,22 +50,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.01,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.5,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-01T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.51,
@@ -122,27 +106,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.81,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.74,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-01T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.12,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-06-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.67,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-06-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.23,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-06-08T12:00:00.000000+00:00",
@@ -194,27 +178,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.64,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.79,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-08T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.2,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-06-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.66,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-06-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.22,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-06-11T12:00:00.000000+00:00",
@@ -261,22 +245,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.49,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-11T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.99,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-11T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.44,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -338,27 +306,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-15T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.54,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-15T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.3,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-15T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.23,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-06-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.65,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-06-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.21,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-06-21T12:00:00.000000+00:00",
@@ -405,22 +373,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.45,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-21T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.97,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-21T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.35,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -482,27 +434,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-22T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.24,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-22T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.59,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-22T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.22,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-06-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.69,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-06-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.25,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-06-29T12:00:00.000000+00:00",
@@ -554,27 +506,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-06-29T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.08,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-29T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.94,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-06-29T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.12,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-06-29T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.7,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-06-29T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.26,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-07-01T12:00:00.000000+00:00",
@@ -621,22 +573,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.43,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.94,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.33,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -698,27 +634,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-07-06T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.98,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-06T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 9.07,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-06T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 2.08,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-07-06T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.73,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-07-06T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.28,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-07-11T12:00:00.000000+00:00",
@@ -765,22 +701,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.39,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-11T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.9,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-11T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.26,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -842,27 +762,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-07-13T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.09,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-13T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.78,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-13T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.9,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-07-13T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.66,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-07-13T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.22,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-07-20T12:00:00.000000+00:00",
@@ -914,27 +834,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-07-20T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.12,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-20T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.69,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-20T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.78,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-07-20T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.64,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-07-20T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.2,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-07-21T12:00:00.000000+00:00",
@@ -981,22 +901,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.38,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-21T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.9,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-21T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.16,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1058,27 +962,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-07-27T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.23,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-27T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.11,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-27T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.69,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-07-27T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.67,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-07-27T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.23,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-07-31T12:00:00.000000+00:00",
@@ -1125,22 +1029,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.37,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-31T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.86,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-07-31T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.13,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1202,27 +1090,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-08-03T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.43,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-03T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.65,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-03T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.66,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-08-03T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.64,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-08-03T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.2,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-08-10T12:00:00.000000+00:00",
@@ -1269,22 +1157,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.32,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-10T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.84,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-10T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.04,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1346,27 +1218,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-08-10T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.48,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-10T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.15,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-10T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.68,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-08-10T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.54,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-08-10T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.12,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-08-17T12:00:00.000000+00:00",
@@ -1418,27 +1290,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-08-17T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.5,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-17T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.09,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-17T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.68,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-08-17T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.51,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-08-17T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.09,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-08-20T12:00:00.000000+00:00",
@@ -1485,22 +1357,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.3,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-20T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.83,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-20T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.98,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1562,27 +1418,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-08-24T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.5,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-24T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.95,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-24T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.76,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-08-24T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.49,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-08-24T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-08-30T12:00:00.000000+00:00",
@@ -1629,22 +1485,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.27,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-30T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.8,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-30T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.94,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1706,27 +1546,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-08-31T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.32,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-31T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.05,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-08-31T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.85,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-08-31T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.47,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-08-31T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.05,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-09-07T12:00:00.000000+00:00",
@@ -1778,27 +1618,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-09-07T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.18,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-07T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.46,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-07T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.87,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-09-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-09-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.99,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-09-09T12:00:00.000000+00:00",
@@ -1845,22 +1685,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.27,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-09T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.79,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-09T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.89,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -1922,27 +1746,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-09-14T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.94,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-14T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.83,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-14T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.85,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-09-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.42,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-09-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.01,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-09-19T12:00:00.000000+00:00",
@@ -1989,22 +1813,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.23,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-19T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.76,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-19T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.84,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2066,27 +1874,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-09-21T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.88,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-21T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.01,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-21T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.81,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-09-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-09-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.97,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-09-28T12:00:00.000000+00:00",
@@ -2138,27 +1946,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-09-28T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.75,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-28T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.12,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-28T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.7,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-09-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.41,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-09-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.0,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-09-29T12:00:00.000000+00:00",
@@ -2205,22 +2013,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.22,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-29T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.74,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-09-29T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.73,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2282,27 +2074,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-10-05T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.78,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-05T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 8.11,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-05T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.56,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-10-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-10-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.98,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-10-09T12:00:00.000000+00:00",
@@ -2349,22 +2141,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.2,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-09T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.71,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-09T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.68,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2426,27 +2202,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-10-12T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.87,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-12T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.89,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-12T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.48,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-10-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-10-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.97,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-10-19T12:00:00.000000+00:00",
@@ -2493,22 +2269,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.17,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-19T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.69,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-19T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.62,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2570,27 +2330,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-10-19T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.96,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-19T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.49,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-19T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.37,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-10-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.42,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-10-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.01,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-10-26T12:00:00.000000+00:00",
@@ -2642,27 +2402,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-10-26T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.03,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-26T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.84,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-26T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.34,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-10-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.45,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-10-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-10-29T12:00:00.000000+00:00",
@@ -2709,22 +2469,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.14,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-29T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.67,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-10-29T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.58,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2786,27 +2530,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-11-02T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.21,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-02T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.54,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-02T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.36,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-11-02T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.46,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-11-02T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-11-08T12:00:00.000000+00:00",
@@ -2853,22 +2597,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.13,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.64,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.52,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -2930,27 +2658,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-11-09T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.23,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-09T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.45,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-09T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.38,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-11-09T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.45,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-11-09T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-11-16T12:00:00.000000+00:00",
@@ -3002,27 +2730,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-11-16T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 3.12,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-16T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.29,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-16T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.44,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-11-16T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.51,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-11-16T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.09,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-11-18T12:00:00.000000+00:00",
@@ -3069,22 +2797,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.1,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-18T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.63,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-18T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.47,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -3146,27 +2858,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-11-23T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.99,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-23T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.46,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-23T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.46,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-11-23T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.53,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-11-23T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.11,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-11-28T12:00:00.000000+00:00",
@@ -3213,22 +2925,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.08,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-28T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.59,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-28T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.42,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -3290,27 +2986,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-11-30T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.86,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-30T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.71,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-11-30T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.52,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-11-30T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.52,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-11-30T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.1,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-12-07T12:00:00.000000+00:00",
@@ -3362,27 +3058,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-12-07T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.61,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-07T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.98,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-07T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.46,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-12-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.49,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-12-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.07,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-12-08T12:00:00.000000+00:00",
@@ -3429,22 +3125,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.05,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.56,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.34,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -3506,27 +3186,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-12-14T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.55,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-14T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.16,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-14T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.44,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-12-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-12-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.02,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-12-18T12:00:00.000000+00:00",
@@ -3573,22 +3253,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 2.01,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-18T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.56,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-18T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.26,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -3650,27 +3314,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-12-21T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.41,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-21T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.26,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-21T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.34,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-12-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.45,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-12-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2025-12-28T12:00:00.000000+00:00",
@@ -3717,22 +3381,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.99,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-28T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.54,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-28T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.2,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -3794,27 +3442,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2025-12-28T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.51,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-28T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 7.26,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2025-12-28T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.24,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2025-12-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.39,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2025-12-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.98,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-01-04T12:00:00.000000+00:00",
@@ -3866,27 +3514,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-01-04T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.55,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-04T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.96,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-04T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.14,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-01-04T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.4,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-01-04T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.99,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-01-07T12:00:00.000000+00:00",
@@ -3933,22 +3581,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.98,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-07T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.52,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-07T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.17,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4010,27 +3642,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-01-11T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.71,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-11T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.64,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-11T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.11,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-01-11T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.3,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-01-11T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.9,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-01-17T12:00:00.000000+00:00",
@@ -4077,22 +3709,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.94,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-17T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.49,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-17T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.08,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4154,27 +3770,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-01-18T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.82,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-18T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.25,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-18T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.04,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-01-18T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.28,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-01-18T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.89,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-01-25T12:00:00.000000+00:00",
@@ -4226,27 +3842,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-01-25T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.83,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-25T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.85,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-25T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.06,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-01-25T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.24,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-01-25T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.85,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-01-27T12:00:00.000000+00:00",
@@ -4293,22 +3909,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.92,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-27T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.46,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-01-27T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.02,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4370,27 +3970,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-02-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.84,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.66,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-01T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.08,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-02-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.23,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-02-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.84,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-02-06T12:00:00.000000+00:00",
@@ -4437,22 +4037,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.9,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-06T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.44,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-06T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.96,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4514,27 +4098,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-02-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.78,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.67,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-08T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.1,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-02-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.21,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-02-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.82,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-02-15T12:00:00.000000+00:00",
@@ -4586,27 +4170,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-02-15T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.61,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-15T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.76,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-15T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.13,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-02-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.17,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-02-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.79,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-02-16T12:00:00.000000+00:00",
@@ -4653,22 +4237,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.87,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-16T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.42,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-16T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.91,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4730,27 +4298,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-02-22T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.54,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-22T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.03,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-22T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.13,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-02-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.2,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-02-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.82,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-02-26T12:00:00.000000+00:00",
@@ -4797,22 +4365,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.86,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-26T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.38,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-02-26T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.85,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -4874,27 +4426,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-03-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.37,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.27,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-01T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.12,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-03-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.19,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-03-01T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.81,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-03-08T12:00:00.000000+00:00",
@@ -4941,22 +4493,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.82,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.37,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.77,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5018,27 +4554,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-03-08T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.26,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-08T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.53,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-08T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 1.07,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-03-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.22,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-03-08T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.83,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-03-15T12:00:00.000000+00:00",
@@ -5090,27 +4626,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-03-15T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.19,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-15T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.53,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-15T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.97,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-03-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.27,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-03-15T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.88,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-03-18T12:00:00.000000+00:00",
@@ -5157,22 +4693,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.81,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-18T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.36,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-18T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.73,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5234,27 +4754,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-03-22T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.23,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-22T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.25,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-22T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.92,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-03-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.24,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-03-22T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.85,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-03-28T12:00:00.000000+00:00",
@@ -5301,22 +4821,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.78,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-28T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.34,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-28T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.67,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5378,27 +4882,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-03-29T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.25,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-29T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 6.2,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-03-29T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.85,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-03-29T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.29,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-03-29T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.9,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-04-05T12:00:00.000000+00:00",
@@ -5450,27 +4954,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-04-05T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.34,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-05T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.73,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-05T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.77,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-04-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.29,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-04-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.9,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-04-07T12:00:00.000000+00:00",
@@ -5517,22 +5021,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.75,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-07T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.3,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-07T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.58,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5594,27 +5082,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-04-12T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.46,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-12T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.41,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-12T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.75,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-04-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.34,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-04-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.94,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-04-17T12:00:00.000000+00:00",
@@ -5661,22 +5149,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.73,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-17T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.29,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-17T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.52,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5738,27 +5210,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-04-19T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.49,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-19T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.19,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-19T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.74,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-04-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.33,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-04-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.93,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-04-26T12:00:00.000000+00:00",
@@ -5810,27 +5282,27 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-04-26T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.47,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-26T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.0,
-      "source": "historical_backfill_v4",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-26T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Index",
       "price_hourly": 0.75,
       "source": "historical_backfill_v4",
       "category": "Index"
+    },
+    {
+      "timestamp": "2026-04-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.27,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-04-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.88,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-04-27T12:00:00.000000+00:00",
@@ -5877,22 +5349,6 @@ window.GPU_HISTORY = {
       "gpu": "H100",
       "provider": "Market Index",
       "price_hourly": 1.71,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-27T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Index",
-      "price_hourly": 2.26,
-      "source": "historical_backfill_v3",
-      "category": "Index"
-    },
-    {
-      "timestamp": "2026-04-27T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Index",
-      "price_hourly": 5.49,
       "source": "historical_backfill_v3",
       "category": "Index"
     },
@@ -5948,7 +5404,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-01T12:00:00.000000+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -5986,38 +5442,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Average",
-      "price_hourly": 5.45,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-01T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Institutional Index",
-      "price_hourly": 5.45,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Average",
-      "price_hourly": 2.25,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-01T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Institutional Index",
-      "price_hourly": 2.25,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-01T12:00:00.000000+00:00",
       "gpu": "A100",
       "provider": "Market Average",
       "price_hourly": 1.04,
@@ -6031,6 +5455,22 @@ window.GPU_HISTORY = {
       "price_hourly": 1.24,
       "source": "computepulse.net",
       "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-05-03T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.26,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-03T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.87,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
     },
     {
       "timestamp": "2026-05-05T12:00:00.000000+00:00",
@@ -6076,7 +5516,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-05T12:00:00.000000+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -6109,38 +5549,6 @@ window.GPU_HISTORY = {
       "gpu": "GH200",
       "provider": "Institutional Index",
       "price_hourly": 3.59,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-05T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Average",
-      "price_hourly": 5.45,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-05T12:00:00.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Institutional Index",
-      "price_hourly": 5.45,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-05T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Average",
-      "price_hourly": 2.25,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-05T12:00:00.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Institutional Index",
-      "price_hourly": 2.25,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -6204,7 +5612,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-09T19:38:06.000000+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -6237,38 +5645,6 @@ window.GPU_HISTORY = {
       "gpu": "GH200",
       "provider": "Institutional Index",
       "price_hourly": 3.59,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-09T19:38:06.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Market Average",
-      "price_hourly": 5.45,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-09T19:38:06.000000+00:00",
-      "gpu": "MI355X",
-      "provider": "Institutional Index",
-      "price_hourly": 5.45,
-      "source": "computepulse.net",
-      "category": "Institutional Index"
-    },
-    {
-      "timestamp": "2026-05-09T19:38:06.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Market Average",
-      "price_hourly": 2.25,
-      "source": "backfill",
-      "category": "Market"
-    },
-    {
-      "timestamp": "2026-05-09T19:38:06.000000+00:00",
-      "gpu": "MI325X",
-      "provider": "Institutional Index",
-      "price_hourly": 2.25,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -6325,22 +5701,6 @@ window.GPU_HISTORY = {
       "gpu": "GH200",
       "provider": "GetDeploying",
       "price_hourly": 3.59,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T00:38:06.460926+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T00:38:06.460926+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
       "source": "getdeploying.com",
       "category": "Market Index"
     },
@@ -6538,22 +5898,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-10T07:30:05.045866+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T07:30:05.045866+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T07:30:05.045866+00:00",
       "gpu": "B200",
       "provider": "Vast.ai",
       "price_hourly": 3.63,
@@ -6724,7 +6068,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-10T07:39:48.556971+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -6781,22 +6125,6 @@ window.GPU_HISTORY = {
       "gpu": "GH200",
       "provider": "GetDeploying",
       "price_hourly": 3.1,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T07:39:48.556971+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T07:39:48.556971+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
       "source": "getdeploying.com",
       "category": "Market Index"
     },
@@ -6994,22 +6322,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-10T09:01:00.164786+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-10T09:01:00.164786+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -7044,7 +6356,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-10T09:01:00.164786+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -7201,6 +6513,38 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-05-10T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.23,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-10T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.84,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-05-17T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.25,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-17T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.86,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-05-17T22:44:20.276783+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -7250,22 +6594,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-17T22:44:20.276783+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-17T22:44:20.276783+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-17T22:44:20.276783+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -7300,7 +6628,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-17T22:44:20.276783+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -7369,6 +6697,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-05-24T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.24,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-24T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.85,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-05-25T11:00:03.066135+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -7418,22 +6762,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-25T11:00:03.066135+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-25T11:00:03.066135+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-25T11:00:03.066135+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -7468,7 +6796,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-25T11:00:03.066135+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.71,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -7674,22 +7002,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-27T11:00:02.746271+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-27T11:00:02.746271+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-27T11:00:02.746271+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.53,
@@ -7724,7 +7036,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-27T11:00:02.746271+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.41,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -7930,22 +7242,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-29T00:11:39.417947+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-29T00:11:39.417947+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-29T00:11:39.417947+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -7980,7 +7276,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-29T00:11:39.417947+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.34,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -8194,22 +7490,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-29T11:00:08.221501+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-29T11:00:08.221501+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-29T11:00:08.221501+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -8244,7 +7524,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-29T11:00:08.221501+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.43,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -8458,22 +7738,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-05-31T11:00:09.295156+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-31T11:00:09.295156+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-05-31T11:00:09.295156+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.54,
@@ -8508,7 +7772,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-05-31T11:00:09.295156+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.47,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -8673,6 +7937,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-05-31T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.13,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-05-31T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.75,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-06-01T11:00:08.735254+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -8722,22 +8002,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-01T11:00:08.735254+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-01T11:00:08.735254+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-01T11:00:08.735254+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.57,
@@ -8772,7 +8036,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-01T11:00:08.735254+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.54,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -8986,22 +8250,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-03T11:00:03.512664+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-03T11:00:03.512664+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-03T11:00:03.512664+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -9036,7 +8284,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-03T11:00:03.512664+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -9250,22 +8498,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-05T11:00:09.152967+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-05T11:00:09.152967+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-05T11:00:09.152967+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -9300,7 +8532,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-05T11:00:09.152967+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -9514,22 +8746,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-07T11:00:04.065541+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-07T11:00:04.065541+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-07T11:00:04.065541+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -9564,7 +8780,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-07T11:00:04.065541+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -9729,6 +8945,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-06-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.09,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-07T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.72,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-06-09T11:00:04.022821+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -9778,22 +9010,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-09T11:00:04.022821+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-09T11:00:04.022821+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-09T11:00:04.022821+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.65,
@@ -9828,7 +9044,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-09T11:00:04.022821+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -10042,14 +9258,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-11T11:00:02.602418+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-11T11:00:02.602418+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -10084,7 +9292,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-11T11:00:02.602418+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -10298,22 +9506,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-13T11:00:08.163300+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-13T11:00:08.163300+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-13T11:00:08.163300+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.68,
@@ -10348,7 +9540,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-13T11:00:08.163300+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -10513,6 +9705,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-06-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.05,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-14T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.68,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-06-15T11:00:05.195787+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -10562,22 +9770,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-15T11:00:05.195787+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-15T11:00:05.195787+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-15T11:00:05.195787+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -10612,7 +9804,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-15T11:00:05.195787+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -10826,22 +10018,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-17T11:00:08.404899+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-17T11:00:08.404899+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-17T11:00:08.404899+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -10876,7 +10052,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-17T11:00:08.404899+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -11090,22 +10266,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-17T23:31:44.043540+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-17T23:31:44.043540+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-17T23:31:44.043540+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -11140,7 +10300,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-17T23:31:44.043540+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -11354,22 +10514,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-19T11:00:08.084096+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-19T11:00:08.084096+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-19T11:00:08.084096+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -11404,7 +10548,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-19T11:00:08.084096+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -11618,22 +10762,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-21T11:00:02.879925+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-21T11:00:02.879925+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-21T11:00:02.879925+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -11668,7 +10796,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-21T11:00:02.879925+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -11833,6 +10961,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-06-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.03,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-21T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.67,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-06-23T11:00:02.822697+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -11882,22 +11026,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-23T11:00:02.822697+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.25,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-23T11:00:02.822697+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-23T11:00:02.822697+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -11932,7 +11060,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-23T11:00:02.822697+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -12146,22 +11274,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-25T11:00:09.751051+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.27,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-25T11:00:09.751051+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-25T11:00:09.751051+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -12196,7 +11308,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-25T11:00:09.751051+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -12418,22 +11530,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-26T04:55:46.231797+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.27,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-26T04:55:46.231797+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-26T04:55:46.231797+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.68,
@@ -12468,7 +11564,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-26T04:55:46.231797+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -12690,22 +11786,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-27T11:00:02.719851+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.27,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-27T11:00:02.719851+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-27T11:00:02.719851+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.65,
@@ -12740,7 +11820,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-27T11:00:02.719851+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -12913,6 +11993,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-06-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-06-28T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.68,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-06-29T11:00:02.381350+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -12962,22 +12058,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-06-29T11:00:02.381350+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.27,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-29T11:00:02.381350+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-06-29T11:00:02.381350+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -13012,7 +12092,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-06-29T11:00:02.381350+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -13234,22 +12314,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-01T11:00:03.774157+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.27,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-01T11:00:03.774157+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 5.45,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-01T11:00:03.774157+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -13284,7 +12348,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-01T11:00:03.774157+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -13506,22 +12570,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-03T11:00:08.859835+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-03T11:00:08.859835+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-03T11:00:08.859835+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -13556,7 +12604,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-03T11:00:08.859835+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.9,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -13778,22 +12826,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-05T11:00:04.320547+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-05T11:00:04.320547+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-05T11:00:04.320547+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -13828,7 +12860,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-05T11:00:04.320547+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.9,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -14001,6 +13033,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-07-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.04,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-05T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.68,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-07-05T20:56:59.663457+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -14050,22 +13098,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-05T20:56:59.663457+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-05T20:56:59.663457+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-05T20:56:59.663457+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.66,
@@ -14100,7 +13132,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-05T20:56:59.663457+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.9,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -14322,22 +13354,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-07T11:00:03.521980+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-07T11:00:03.521980+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-07T11:00:03.521980+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.67,
@@ -14372,7 +13388,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-07T11:00:03.521980+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 5.93,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -14594,22 +13610,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-09T11:00:06.601977+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-09T11:00:06.601977+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-09T11:00:06.601977+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.68,
@@ -14644,7 +13644,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-09T11:00:06.601977+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.07,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -14874,22 +13874,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-11T11:00:08.995710+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-11T11:00:08.995710+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-11T11:00:08.995710+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.76,
@@ -14924,7 +13908,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-11T11:00:08.995710+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.07,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -15105,6 +14089,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-07-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.98,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-12T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.62,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-07-13T11:00:03.136691+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -15154,22 +14154,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-13T11:00:03.136691+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-13T11:00:03.136691+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-13T11:00:03.136691+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.73,
@@ -15204,7 +14188,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-13T11:00:03.136691+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -15434,22 +14418,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-15T11:00:02.956748+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-15T11:00:02.956748+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-15T11:00:02.956748+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.74,
@@ -15484,7 +14452,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-15T11:00:02.956748+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.2,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -15714,22 +14682,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-17T11:00:05.498169+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-17T11:00:05.498169+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-17T11:00:05.498169+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.74,
@@ -15764,7 +14716,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-17T11:00:05.498169+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -15994,22 +14946,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-19T11:00:03.499497+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.28,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-19T11:00:03.499497+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-19T11:00:03.499497+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.74,
@@ -16044,7 +14980,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-19T11:00:03.499497+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -16225,6 +15161,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-07-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.98,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-19T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.62,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-07-21T11:00:08.790706+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -16274,22 +15226,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-21T11:00:08.790706+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.32,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-21T11:00:08.790706+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-21T11:00:08.790706+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.75,
@@ -16324,7 +15260,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-21T11:00:08.790706+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -16546,22 +15482,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-23T11:00:09.793276+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.32,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-23T11:00:09.793276+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-23T11:00:09.793276+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.74,
@@ -16596,7 +15516,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-23T11:00:09.793276+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.2,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -16818,22 +15738,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-25T11:00:03.025607+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.3,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-25T11:00:03.025607+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-25T11:00:03.025607+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.74,
@@ -16868,7 +15772,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-25T11:00:03.025607+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.2,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -17049,6 +15953,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-07-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.98,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-07-26T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.62,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-07-27T11:00:13.754980+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -17098,22 +16018,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-27T11:00:13.754980+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.3,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-27T11:00:13.754980+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-27T11:00:13.754980+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.75,
@@ -17148,7 +16052,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-27T11:00:13.754980+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.18,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -17378,22 +16282,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-29T11:00:03.130272+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.3,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-29T11:00:03.130272+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-29T11:00:03.130272+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.75,
@@ -17428,7 +16316,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-29T11:00:03.130272+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -17650,22 +16538,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-07-31T11:00:10.058532+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.3,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-31T11:00:10.058532+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-07-31T11:00:10.058532+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -17700,7 +16572,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-07-31T11:00:10.058532+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -17922,22 +16794,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-01T11:00:15.269707+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.3,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-01T11:00:15.269707+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-01T11:00:15.269707+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -17972,7 +16828,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-01T11:00:15.269707+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -18081,6 +16937,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-08-02T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.01,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-02T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.65,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-08-03T11:00:09.476123+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -18130,22 +17002,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-03T11:00:09.476123+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-03T11:00:09.476123+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-03T11:00:09.476123+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -18180,7 +17036,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-03T11:00:09.476123+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -18410,22 +17266,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-05T11:00:03.836872+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-05T11:00:03.836872+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-05T11:00:03.836872+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -18460,7 +17300,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-05T11:00:03.836872+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -18690,22 +17530,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-07T11:00:04.691006+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-07T11:00:04.691006+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-07T11:00:04.691006+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -18740,7 +17564,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-07T11:00:04.691006+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -18970,22 +17794,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-09T11:00:03.151246+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-09T11:00:03.151246+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-09T11:00:03.151246+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -19020,7 +17828,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-09T11:00:03.151246+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -19201,6 +18009,22 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-08-09T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.03,
+      "source": "historical_backfill_mi300x",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-09T12:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.67,
+      "source": "historical_backfill_mi300x",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-08-11T11:00:03.131311+00:00",
       "gpu": "H100",
       "provider": "GetDeploying",
@@ -19250,22 +18074,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-11T11:00:03.131311+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-11T11:00:03.131311+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-11T11:00:03.131311+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -19300,7 +18108,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-11T11:00:03.131311+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -19530,22 +18338,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-13T11:00:02.452521+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-13T11:00:02.452521+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.6,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-13T11:00:02.452521+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -19580,7 +18372,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-13T11:00:02.452521+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -19810,22 +18602,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-08-15T11:00:03.554615+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 2.38,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-15T11:00:03.554615+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 6.55,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-08-15T11:00:03.554615+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.56,
@@ -19860,7 +18636,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-08-15T11:00:03.554615+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 4.49,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -20041,6 +18817,3318 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.14,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.71,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.0,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.53,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.17,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.25,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.19,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.14,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.32,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.76,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.23,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 8.03,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.86,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.04,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-17T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.58,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.13,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.01,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.18,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.23,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.82,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.11,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 18.1,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.42,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.3,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.83,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.79,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.06,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.62,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-19T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.59,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.1,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.71,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.82,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.98,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.53,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.2,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.09,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.39,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.41,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.86,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.31,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.82,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.07,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.63,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-21T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.57,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.08,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.68,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.85,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.98,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.2,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.69,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.11,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.15,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.45,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.85,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.24,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.81,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.11,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.64,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-23T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.57,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.09,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.94,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.04,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.58,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.24,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.67,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.08,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.24,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.76,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.8,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.07,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-25T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.62,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.08,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.01,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.01,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.67,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.32,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.38,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.71,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.08,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.3,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.3,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.21,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.79,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.03,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.58,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-27T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.41,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.13,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.71,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.04,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.99,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.67,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.4,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.49,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.69,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.12,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.15,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.67,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.99,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-29T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.63,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.11,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.06,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.98,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.77,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.12,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.85,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.81,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.39,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.79,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.97,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-08-31T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.68,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.15,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 3.0,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.63,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.32,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.62,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.17,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.09,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 6.95,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.87,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.37,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.81,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.95,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-02T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.21,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.18,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.94,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.66,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.33,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.77,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.9,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.14,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 8.03,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.82,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.97,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-04T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.51,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.23,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.74,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.16,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.9,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.62,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.31,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.66,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.81,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.91,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.08,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.6,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.94,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.85,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.98,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.53,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-06T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.49,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.2,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.88,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.54,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.33,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.66,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.89,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.86,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.97,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.89,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.29,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 8.04,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.85,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.02,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.3,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.5,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-08T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.46,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.2,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.76,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.17,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.83,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.49,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.67,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.96,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.83,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.25,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 17.05,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.79,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.92,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.87,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.04,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.31,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.51,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-10T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.44,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.2,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.83,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.49,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.27,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.71,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.91,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.78,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.23,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.68,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.44,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.93,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.49,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.92,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.01,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.33,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-12T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.47,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.43,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.76,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.17,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.75,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.82,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.57,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.28,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.6,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.99,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.3,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.54,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.43,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.9,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.03,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.35,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.53,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-14T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.74,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.15,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.72,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.53,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.35,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.69,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.99,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.77,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.31,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.26,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.56,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.77,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.37,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.88,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.03,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-16T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.76,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.11,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.4,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.8,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.61,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.37,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 5.97,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.66,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.22,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 15.98,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.23,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.63,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.84,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.86,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.02,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.59,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.36,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.52,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-18T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.35,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.16,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.43,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.83,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.58,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 3.41,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.69,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.06,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.66,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 4.19,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 15.96,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.12,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.73,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.7,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 6.33,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.87,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 3.02,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "MI300X",
+      "provider": "Vast.ai",
+      "price_hourly": 2.55,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.34,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.51,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-20T11:00:00.000000+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.48,
+      "source": "historical_bridge_aug_sept_2026",
+      "category": "Marketplace"
+    },
+    {
       "timestamp": "2026-09-22T15:11:39.451733+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
@@ -20076,7 +22164,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-09-22T15:11:39.451733+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -20338,22 +22426,6 @@ window.GPU_HISTORY = {
     },
     {
       "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI325X",
-      "provider": "GetDeploying",
-      "price_hourly": 3.06,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI355X",
-      "provider": "GetDeploying",
-      "price_hourly": 8.04,
-      "source": "getdeploying.com",
-      "category": "Market Index"
-    },
-    {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "H100",
       "provider": "Institutional Index",
       "price_hourly": 2.79,
@@ -20388,7 +22460,7 @@ window.GPU_HISTORY = {
       "timestamp": "2026-09-22T15:27:53.426355+00:00",
       "gpu": "GB200",
       "provider": "Institutional Index",
-      "price_hourly": 6.19,
+      "price_hourly": 17.5,
       "source": "computepulse.net",
       "category": "Institutional Index"
     },
@@ -20601,47 +22673,351 @@ window.GPU_HISTORY = {
       "category": "Neocloud"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "GetDeploying",
+      "price_hourly": 3.38,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "GetDeploying",
+      "price_hourly": 4.46,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "GetDeploying",
+      "price_hourly": 6.7,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B300",
+      "provider": "GetDeploying",
+      "price_hourly": 7.85,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "GB200",
+      "provider": "GetDeploying",
+      "price_hourly": 16.0,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "GH200",
+      "provider": "GetDeploying",
+      "price_hourly": 3.87,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "MI300X",
+      "provider": "GetDeploying",
+      "price_hourly": 2.99,
+      "source": "getdeploying.com",
+      "category": "Market Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "Institutional Index",
+      "price_hourly": 2.79,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 2.7,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "Institutional Index",
+      "price_hourly": 6.19,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "GB200",
+      "provider": "Institutional Index",
+      "price_hourly": 17.5,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "Institutional Index",
+      "price_hourly": 1.24,
+      "source": "computepulse.net",
+      "category": "Institutional Index"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B300",
+      "provider": "Vast.ai",
+      "price_hourly": 8.75,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 1.73,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.6,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "Vast.ai",
+      "price_hourly": 8.13,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.4,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "Vast.ai",
+      "price_hourly": 2.63,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Vast.ai",
+      "price_hourly": 2.91,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "Vast.ai",
+      "price_hourly": 0.27,
+      "source": "vast.ai",
+      "category": "Marketplace"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B300",
+      "provider": "RunPod",
+      "price_hourly": 7.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "RunPod",
+      "price_hourly": 4.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "RunPod",
+      "price_hourly": 6.79,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.19,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 2.89,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "RunPod",
+      "price_hourly": 3.49,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "A100",
+      "provider": "RunPod",
+      "price_hourly": 1.59,
+      "source": "runpod.io",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 7.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 7.15,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 4.5,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 3.85,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B300",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "B200",
+      "provider": "Nebius",
+      "price_hourly": 0.99,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H200",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "H100",
+      "provider": "Nebius",
+      "price_hourly": 0.79,
+      "source": "nebius.com",
+      "category": "Neocloud"
+    },
+    {
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H100",
       "provider": "Neocloud Pulse",
-      "price_hourly": 2.9405555555555556,
+      "price_hourly": 2.94,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "H200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 3.1950000000000003,
+      "price_hourly": 3.19375,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 6.531000000000001,
+      "price_hourly": 6.522,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "B300",
       "provider": "Neocloud Pulse",
-      "price_hourly": 8.09,
+      "price_hourly": 8.084999999999999,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "GB200",
       "provider": "Neocloud Pulse",
-      "price_hourly": 11.095,
+      "price_hourly": 17.275,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "GH200",
       "provider": "Neocloud Pulse",
       "price_hourly": 3.255,
@@ -20649,23 +23025,15 @@ window.GPU_HISTORY = {
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI325X",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
+      "gpu": "MI300X",
       "provider": "Neocloud Pulse",
-      "price_hourly": 2.7800000000000002,
+      "price_hourly": 2.685,
       "source": "Weighted (50% Index / 50% Market)",
       "category": "Weighted Average"
     },
     {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
-      "gpu": "MI355X",
-      "provider": "Neocloud Pulse",
-      "price_hourly": 8.04,
-      "source": "Weighted (50% Index / 50% Market)",
-      "category": "Weighted Average"
-    },
-    {
-      "timestamp": "2026-09-22T15:27:53.426355+00:00",
+      "timestamp": "2026-09-22T15:45:59.843812+00:00",
       "gpu": "A100",
       "provider": "Neocloud Pulse",
       "price_hourly": 1.6600000000000001,
