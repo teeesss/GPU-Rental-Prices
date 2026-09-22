@@ -14,11 +14,17 @@ The primary health check is `smoke_test.py`. It verifies:
 python smoke_test.py
 ```
 
+## 🧩 Scraper Unit Tests
+To verify GetDeploying DOM parsing accuracy against modern HTML layouts without launching browsers:
+```bash
+python engine/test_getdeploying_parser.py
+```
+
 ## 🛠️ Diagnostic Tools
 Several scratch scripts are available for deep diagnostics:
 - `scratch/diag_db.py`: Inspects the SQLite database integrity.
 - `scratch/align_ts.py`: Checks for timestamp synchronization across sources.
-- `scratch/check_gb200.py`: Specific validation for Blackwell pricing anomalies.
+- `engine/backfill_bridge.py`: Diagnostic and gap recovery tool for multi-day staleness.
 
 ## 📡 Scraper Dry-Runs
 To test the scrapers without writing to the production database, use the `test_gpus.sh` script:
@@ -36,4 +42,4 @@ If you encounter "database is locked" errors:
 2. Run `python scratch/diag_db.py` to check for WAL journal status.
 
 ---
-Updates to test results are recorded in [TEST_RESULTS.md](file:///z:/GPU_Price_Over_Time/TEST_RESULTS.md).
+Updates to test results are recorded in [TEST_RESULTS.md](TEST_RESULTS.md).

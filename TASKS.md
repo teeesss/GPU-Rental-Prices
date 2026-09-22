@@ -4,6 +4,19 @@
 - [ ] Add more sources (SiliconData portal, etc.) <!-- id: 7 -->
 
 ## Completed
+- [x] **V4.2.33: GB200 Calibration, Aug-Sept Gap Backfill & AMD MI300X Integration**
+    - [x] Decoupled GB200 from ComputePulse B200 SXM false-matching in `engine/index_scraper.py`
+    - [x] Calibrated GB200 benchmarks and restored historical database pricing to ~$17.27/hr (eliminated chart cliff drop)
+    - [x] Implemented `engine/backfill_bridge.py` to fill the 38-day gap (Aug 15 - Sept 22) with 18 2-day cadence snapshots (414 data points)
+    - [x] Deprecated sparse MI325X and MI355X from scrapers, weighting engine, and templates
+    - [x] Integrated AMD MI300X across GetDeploying, Vast.ai, RunPod, and UI templates
+    - [x] Backfilled MI300X historical trajectory from June 2025 to Sept 2026
+    - [x] Updated desktop and mobile stat-bars to 8-card grid layout (`repeat(8, 1fr)`)
+    - [x] Verified full pipeline health, 100% test passing, and SFTP sync to bmwseals.com
+- [x] **V4.2.32: GetDeploying Scraper Overhaul & Portable Runner**
+    - [x] Overhauled `scrape_getdeploying()` with 4-layer fallback strategy (stat cards, Schema FAQ, narrative text, table formatting)
+    - [x] Added `engine/test_getdeploying_parser.py` unit test suite (5/5 passed)
+    - [x] Created `gpu1.sh` hardened runner for Ubuntu 24.04+/Resolute (t64 library transition, CIFS venv fallback, Chromium smoke test)
 - [x] **V4.2.31: YTD Column Integration**
     - [x] Added YTD price change column to Market Intelligence table
     - [x] Calculated YTD (from January 1st of the current year) on the backend using SQLite historical average logic

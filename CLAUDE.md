@@ -1,7 +1,7 @@
 # CLAUDE.md — GPU Price Over Time
 
 ## Project
-**Sovereign Neocloud Intelligence Engine V4.2.29**
+**Sovereign Neocloud Intelligence Engine V4.2.33**
 Live at: https://bmwseals.com/gpus/
 
 ## Architecture Summary
@@ -9,13 +9,14 @@ Live at: https://bmwseals.com/gpus/
 - **Institutional Index**: `engine/index_scraper.py` — Pulls from ComputePulse.net.
 - **Weighted Engine**: `engine/build_intel.py` — Calculates 50/50 Weighted Average (Institutional vs Market).
 - **Synthetic Verification**: Ensures a **3-source minimum** per GPU by injecting verified benchmarks if market data is sparse.
-- **Outlier Protection**: Implements a **25% variance gate** to reject anomalies (e.g. $18.22/hr GB200).
+- **Outlier Protection**: Implements a **25% variance gate** to reject anomalies.
 - **Pipeline Runner**: `gpu_pulse.py` — 2-day staleness gate, `--force`/`--check` flags.
 - **Deploy**: `engine/remote_sync.py` — SFTP to bmwseals.com.
 
 ## Key Commands
 ```bash
 ./gpu.sh                     # Primary entry point (Staleness-gated)
+./gpu1.sh                    # Hardened runner (Ubuntu 24.04+/t64 + CIFS auto-handling)
 ./gpu.sh --force             # Force a production run
 ./gpu.sh --check             # Report current data age
 ./test_gpus.sh               # Dry-run diagnostic (no DB writes)

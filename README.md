@@ -1,4 +1,4 @@
-# Neocloud GPU Intelligence Engine (V4.2.31)
+# Neocloud GPU Intelligence Engine (V4.2.33)
 
 > Institutional-grade GPU rental price tracking and autonomous market intelligence.
 
@@ -31,6 +31,7 @@ The **Sovereign Neocloud Intelligence Engine** is a robust pipeline for tracking
 ### Quick Start
 ```bash
 ./gpu.sh         # Runs ingestion + build + deploy (if data > 2 days old)
+./gpu1.sh        # Hardened portable runner for Ubuntu 24.04+/t64 & CIFS mounts
 ./gpu.sh --force # Force an immediate production update
 ./gpu.sh --check # Just check the current data age
 ```
@@ -80,6 +81,8 @@ Refer to [TEST_GUIDE.md](file:///z:/GPU_Price_Over_Time/TEST_GUIDE.md) for more 
 ---
 
 ## 📜 Version History
+- **V4.2.33**: GB200 Calibration, Aug-Sept Gap Backfill & AMD MI300X Integration. Decoupled GB200 from ComputePulse B200 false-matches (~$17.27/hr), bridged the 38-day gap with 18 2-day cadence snapshots, and replaced MI325X/MI355X with AMD MI300X across scrapers and 8-column UI.
+- **V4.2.32**: GetDeploying Scraper Overhaul & Portable Runner. Upgraded GetDeploying extractor for 2026 UI overhaul and added `gpu1.sh` hardened runner for Ubuntu 24.04+ (t64 package management & CIFS venv fallback).
 - **V4.2.31**: YTD Column Integration. Added Year-to-Date (YTD) price changes, widened sidebar layout on desktop/tablet, aligned column headers to `#ccc` font color, and centered the RANGE header.
 - **V4.2.30**: 1W Change & Evasion Hardening. Added 1-week price changes (1W), changed W. AVG to AVG, unified playwright-stealth to 2.0.3, and migrated to temp-scrape-and-merge DB pattern.
 - **V4.2.26**: Reliability Hardening. Native FS migration & ComputePulse email bypass.

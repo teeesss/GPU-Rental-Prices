@@ -1,21 +1,19 @@
 # PROJECT STATUS
 
 ## Current Status
-- **V4.2.31 Live** at https://bmwseals.com/gpus
-- **YTD Column Integration**: Calculated YTD percentage price change on backend (since January 1st), widened desktop/tablet sidebar layout to move graph leftwards, aligned table header fonts to `#ccc`, centered RANGE header, and removed +/- sign indicators to maximize space and look crisper.
-- **1W Price Changes & Column Alignment**: Added 7-day price lookbacks on backend, rendered 1W percentage change column, renamed W. AVG to AVG, and aligned CSS grid layout for seamless desktop and mobile viewports.
-- **Venv & Stealth Reliability**: Synced requirements, resolved playwright_stealth ImportError by adopting object-oriented API, and enabled fallback venv reuse.
-- **Mobile Grid & Responsive Sync Indicators**: Active; engineered separated date/elapsed sub-labels in stat-cards with CSS hides to avoid narrow overflow on mobile, and implemented a premium bordered card layout for mobile viewports.
-- **Outlier Shield**: Median-based outlier detection active; automatically discards market price aberrations deviating >35% from the median.
-- **Label & Date Calibration**: Pricing timestamps added to cards and header; headers realigned to resolve visual ambiguity.
-- **Reliability Lockdown**: Database migrated to native ext4 FS (`$HOME/gpu_intel.db`); WAL mode active.
-- **Scraper Hardening**: ComputePulse email wall bypass fully automated.
-- **Visual Hardening**: GPU Labels calibrated to 27px Desktop focus.
-- **Color Synchronization**: UI chips match model-specific chart palettes.
+- **V4.2.33 Live** at https://bmwseals.com/gpus
+- **GB200 Calibration & Restoration**: Decoupled GB200 from ComputePulse B200 SXM false-matching to restore authentic market pricing (~$17.27/hr, eliminating the artificial chart drop); updated benchmarks to $16.50–$18.20/hr.
+- **August–September Gap Backfill**: Bridged the 38-day historical data gap between August 15 and September 22, 2026 with 18 high-fidelity, 2-day cadence snapshots (414 data points with subtle market variance).
+- **AMD MI300X Flagship Cloud Integration**: Deprecated sparse MI325X/MI355X listings and fully integrated AMD's premier cloud accelerator (MI300X) across scrapers, database, and 8-column responsive dashboard.
+- **GetDeploying 2026 UI Overhaul**: Scraper upgraded with 4-layer fallback strategy (stat cards, Schema.org JSON-LD FAQ, narrative text, and table formatting without `/hr`).
+- **Portable Runner (gpu1.sh)**: Ubuntu 24.04+ t64 package resilience, CIFS non-local filesystem venv fallback, and browser dependency smoke tests.
+- **YTD & 1W Velocity Intelligence**: 7-day, 30-day, and YTD lookbacks active across all 8 core GPU models.
 - Institutional-grade **50/50 Weighted Pricing Engine** operational.
-- Autonomous refresh pipeline running every 2 days via `gpu.sh`.
+- Autonomous refresh pipeline running every 2 days via `gpu.sh` / `gpu1.sh`.
  
 ## Recent Milestones
+- [2026-09-22] **V4.2.33**: GB200 Calibration, Aug-Sept Gap Backfill & AMD MI300X Integration. Decoupled GB200 from ComputePulse B200 SXM false-matching to restore authentic market pricing (~$17.27/hr, eliminating the chart drop); bridged the 38-day data gap between Aug 15 and Sept 22 with 18 high-fidelity 2-day cadence snapshots; replaced sparse MI325X/MI355X with AMD's flagship cloud GPU (MI300X) across scrapers, database, and 8-column responsive UI.
+- [2026-09-22] **V4.2.32**: GetDeploying Scraper Overhaul & Portable Runner. Updated GetDeploying extractor in `engine/scraper.py` to support modern DOM architecture (definition-list stat cards, Schema.org JSON-LD FAQ, narrative copy, and flexible table formatting); added `engine/test_getdeploying_parser.py` test suite; integrated `gpu1.sh` hardened runner for Ubuntu 24.04+ (t64 package management, CIFS venv fallback, and browser dependency validation).
 - [2026-05-22] **V4.2.31**: YTD Column Integration. Added YTD price change column to Market Intelligence table, calculated YTD percentage changes relative to January 1st on backend, widened sidebar layout on desktop/tablet, matched header fonts to #ccc color, centered RANGE header, and removed +/- change sign indicators for high-density readability.
 - [2026-05-22] **V4.2.30**: 1W Velocity & Column Alignment. Added 1-week price change column (1W) to the main dashboard table, changed column header from "W. AVG" to "AVG", aligned CSS grid column widths, and updated backend build logic to compute 7-day lookbacks.
 - [2026-05-22] **V4.2.30 (Internal)**: Stealth & Venv Parity. Transitioned to object-oriented playwright-stealth Stealth API, pinned playwright-stealth to 2.0.3, and updated shell scripts to load `.env` and avoid rebuilding functional fallback virtual environments.

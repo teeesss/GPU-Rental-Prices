@@ -29,6 +29,13 @@
 - **Vertical Rhythm**: `8px` row padding for "breathing room" in dense lists.
 - **Navigation**: Eliminates non-essential labels to fit Chart + Market stats in one viewport.
 
+### Active Whitelist (8 Core Models)
+- **Hopper**: `H100` (#76b900), `H200` (#00a3e0)
+- **Blackwell**: `B200` (#fb923c), `GB200` (#c084fc), `B300` (#4ade80)
+- **Specialized / Hybrid**: `GH200` (#2dd4bf)
+- **AMD Enterprise**: `MI300X` (#ff4757) — *Replaced sparse MI325X/MI355X*
+- **Legacy Foundation**: `A100` (#94a3b8)
+
 ### Column Definitions
 1. **MODEL**: Canonical GPU name (e.g., H100).
 2. **AVG**: 50/50 Weighted Index (Institutional Index + Market Median).
@@ -48,10 +55,21 @@
 - **Formula**: `(Inst_Avg * 0.5) + (Market_Median * 0.5)`.
 - **Fallback**: If one side is missing, the other takes 100% weight.
 
+### GB200 Institutional Protection Rule
+- ComputePulse publishes Hopper (H100/H200) and Blackwell (B200 SXM ~$6.19), but does **not** yet host an independent GB200 superchip index.
+- **Mandate**: Never bind B200 SXM sub-$12/hr prices to GB200. GB200 Institutional Index must anchor to verified reference benchmarks (~$17.50/hr) or authentic market listings ($16.00–$18.20/hr) to avoid false-matching cliff drops.
+
+### GetDeploying 4-Layer Extraction Strategy
+- **Layer 1 (Stat Card)**: `<dt>` "Median price (current)" element reading adjacent `<dd><span class="v">`.
+- **Layer 2 (Schema FAQ)**: JSON-LD script metadata (`median on-demand price is $X.XX`).
+- **Layer 3 (Narrative Text)**: Matches `median` or `average` patterns in `<p>` and `<div>`.
+- **Layer 4 (Table Cells)**: Matches `^\$(\d+\.?\d*)(?:/hr)?$` directly on table `<td>` cells (handles both raw `$X.XX` and suffixed `$X.XX/hr`).
+
 ### Outlier & Sparse Data Protection
 - **3-Source Minimum**: If market sources < 3, inject **Verified Benchmarks**.
 - **25% Variance Gate**: Benchmarks only injected if within 25% of current market median.
 - **Refresh Frequency**: 2 days (Matches observed market volatility).
+- **Cadence Continuity**: Run on a strict 2-day cadence. If prolonged gaps occur (> 5 days), execute `engine/backfill_bridge.py` to prevent horizontal step distortion.
 
 ### Change Calculations
 - **Lookback Periods**: 30 days (1M), 365 days (1Y).
